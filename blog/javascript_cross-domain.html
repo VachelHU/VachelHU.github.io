@@ -1,0 +1,202 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"><title>javascript_cross-domain</title><link rel="stylesheet" type="text/css" href="../css/blogstyle.css"><link rel="stylesheet" type="text/css" href="../css/fonts.css"><link rel="stylesheet" type="text/css" href="../css/fontello/css/fontello.css"><link rel="stylesheet" type="text/css" href="../fonts/font-awesome/css/font-awesome.css"><link rel="shortcut icon" href="http://liu946.github.io/image/favicon.png"></head><body><aside id="sidebar"><nav id="tags"><a id="avatar" href="index.html"></a><ul id="tags__ul"><li id="js-label1" onclick="window.location=&quot;/blog/blog.html&quot;" class="tags__li tags-btn active">全部文章</li><li id="js-label2" class="tags__li tags-btn">思想</li><li id="js-label3" class="tags__li tags-btn">技术</li><li id="js-label4" class="tags__li tags-btn">技巧</li><li id="js-label5" class="tags__li tags-btn">随笔</li><li id="js-label6" class="tags__li tags-btn">竞赛</li></ul><div id="tags__bottom"><a href="mailto:hwj950504@icloud.com" class="tags-btn fontello"><i class="fa fa-envelope"></i></a><a href="rss.xml" class="tags-btn fontello"><i class="fa fa-rss"></i></a></div></nav><div id="posts-list"><form id="search-form" action="./"><a id="mobile-avatar" href="index.html"></a><input id="search-input" type="text" placeholder="Search..." disabled></form><nav id="pl__container"><a href="/blog/beibaowenti.html" class="think pl__all"><span class="pl__circle"></span><span class="pl__title">背包问题</span><span class="pl__date">2016.1.15</span></a><a href="/blog/functional_programming.html" class="think pl__all"><span class="pl__circle"></span><span class="pl__title">函数式编程</span><span class="pl__date">2015.4.5</span></a><a href="/blog/async&amp;sync.html" class="think pl__all"><span class="pl__circle"></span><span class="pl__title">异步与同步</span><span class="pl__date">2015.3.7</span></a><a href="/blog/jquery_selfevent.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">jQuery自定义事件</span><span class="pl__date">2016.1.16</span></a><a href="/blog/concurrent_skill.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">处理并发的一些技巧和思想</span><span class="pl__date">2015.11.27</span></a><a href="/blog/canvas_read.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">使用Canvas进行验证码识别</span><span class="pl__date">2015.10.18</span></a><a href="/blog/php_request.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">php发送请求方法简明总结</span><span class="pl__date">2015.10.18</span></a><a href="/blog/tomcat_session_leak.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">Apache Tomcat样例目录session操纵漏洞</span><span class="pl__date">2015.10.9</span></a><a href="/blog/js_activexobject.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JavaScript中的ActiveXObject对象</span><span class="pl__date">2015.10.8</span></a><a href="/blog/X_Frame_Options.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">X-Frame-Options 响应头</span><span class="pl__date">2015.10.8</span></a><a href="/blog/jquery_deferredandpromise.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">jQuery Deferred和Promise创建响应式应用程序详细介绍</span><span class="pl__date">2015.10.8</span></a><a href="/blog/sqlmap_use.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">sqlmap用户手册</span><span class="pl__date">2015.10.1</span></a><a href="/blog/js_TopParentIframe.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">js中的top、parent、frame</span><span class="pl__date">2015.10.1</span></a><a href="/blog/node_get_IPaddress.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">node获取客户端IP地址</span><span class="pl__date">2015.10.1</span></a><a href="/blog/css3_matrix.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">理解CSS3 transform中的Matrix</span><span class="pl__date">2015.9.28</span></a><a href="/blog/viewpoint.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">viewpoint和他的朋友们</span><span class="pl__date">2015.6.10</span></a><a href="/blog/submit_File.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">文件提交方式总结</span><span class="pl__date">2015.6.7</span></a><a href="/blog/mysql_of_commands.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">Mysql 命令大全</span><span class="pl__date">2015.5.15</span></a><a href="/blog/mousewheel.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">js中鼠标滚轮事件详解</span><span class="pl__date">2015.5.12</span></a><a href="/blog/mobie_adaption.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">移动端适应与小技巧</span><span class="pl__date">2015.5.10</span></a><a href="/blog/js_preventmodification.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JS阻止对象的修改</span><span class="pl__date">2015.5.6</span></a><a href="/blog/js_Delegation.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">Javascript事件代理和委托（Delegation）</span><span class="pl__date">2015.5.4</span></a><a href="/blog/jquery_dynamic_load_js.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">使用jQuery动态加载js脚本文件的方法</span><span class="pl__date">2015.5.1</span></a><a href="/blog/javascript_special_skill.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">你可能不知道的javascript奇淫技巧</span><span class="pl__date">2015.4.26</span></a><a href="/blog/javascript_of_new,this,call,apply.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">Javascript技术难点之new,this,call,apply</span><span class="pl__date">2015.4.21</span></a><a href="/blog/javascript_of_map_reduce_filter.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JavaScript实现Map、Reduce和Filter</span><span class="pl__date">2015.4.20</span></a><a href="/blog/javascript_cross-domain.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JavaScript跨域总结与解决办法</span><span class="pl__date">2015.4.16</span></a><a href="/blog/ie6_compatiable_10skills.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">解决IE6兼容性问题的十大技巧</span><span class="pl__date">2015.4.15</span></a><a href="/blog/H5_animation_60fps.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">H5动画60fps之路</span><span class="pl__date">2015.4.10</span></a><a href="/blog/es6_new_properties.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">ES6新特性概览</span><span class="pl__date">2015.4.5</span></a><a href="/blog/dom_event_flow.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JS DOM操作入门</span><span class="pl__date">2015.4.3</span></a><a href="/blog/css_remove_float.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS清除浮动</span><span class="pl__date">2015.3.31</span></a><a href="/blog/css_character.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">网页中嵌入字体的解决方案</span><span class="pl__date">2015.3.26</span></a><a href="/blog/css_center_horizontally.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS水平垂直居中</span><span class="pl__date">2015.3.25</span></a><a href="/blog/css3_pointer-events.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS3之pointer-events属性值详解</span><span class="pl__date">2015.3.21</span></a><a href="/blog/css3_grid.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS3 Grid布局：网格布局让内容优先</span><span class="pl__date">2015.3.18</span></a><a href="/blog/css3_box-display.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS3盒模型display:box详解</span><span class="pl__date">2015.3.15</span></a><a href="/blog/browser_caching.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">浏览器缓存</span><span class="pl__date">2015.3.9</span></a><a href="/blog/browser_compatiable.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">浏览器兼容</span><span class="pl__date">2015.3.9</span></a><a href="/blog/wget.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">wget 递归下载整个网站</span><span class="pl__date">2015.12.13</span></a><a href="/blog/netstat_introduce.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">netstat命令详解</span><span class="pl__date">2015.10.18</span></a><a href="/blog/nc_introduce.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">nc命令详解</span><span class="pl__date">2015.10.18</span></a><a href="/blog/kali_breakwifiwpa.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">利用kali破解wifi密码全过程</span><span class="pl__date">2015.10.8</span></a><a href="/blog/quickly_options.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">快捷操作大全</span><span class="pl__date">2015.6.5</span></a><a href="/blog/python_http,ftp.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">使用python创建简单的HTTP和FTP服务</span><span class="pl__date">2015.5.20</span></a><a href="/blog/os_yosemitemac_mac_change.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">OS X 10.10 Yosemite 修改网卡 Mac 地址的方法</span><span class="pl__date">2015.5.17</span></a><a href="/blog/git_command.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">git命令</span><span class="pl__date">2015.4.7</span></a><a href="/blog/hitcon2015_web100.html" class="exam pl__all"><span class="pl__circle"></span><span class="pl__title">Hitcon2015CTF web100</span><span class="pl__date">2015.10.20</span></a><a href="/blog/hitcon2015_web300.html" class="exam pl__all"><span class="pl__circle"></span><span class="pl__title">Hitcon2015CTF web300</span><span class="pl__date">2015.10.20</span></a><a href="/blog/xdctf2015_web2.html" class="exam pl__all"><span class="pl__circle"></span><span class="pl__title">XDctf2015 web2</span><span class="pl__date">2015.10.8</span></a></nav></div></aside><div id="post"><div id="pjax"><div id="post__content" style="font-size: 100%;"><article><h1>JavaScript跨域总结与解决办法</h1>
+
+<h3>1. 什么是跨域</h3>
+
+<p>JavaScript出于安全方面的考虑，不允许跨域调用其他页面的对象。但在安全限制的同时也给注入iframe或是ajax应用上带来了不少麻烦。这里把涉及到跨域的一些问题简单地整理一下：</p>
+
+<p>首先什么是跨域，简单地理解就是因为JavaScript同源策略的限制，a.com 域名下的js无法操作b.com或是c.a.com域名下的对象。更详细的说明可以看下表：
+<img alt="" src="../images/blog/domain_float.png"/>
+<strong>特别注意两点：</strong></p>
+
+<ol><li>如果是协议和端口造成的跨域问题“前台”是无能为力的，</li><li>在跨域问题上，域仅仅是通过“URL的首部”来识别而不会去尝试判断相同的ip地址对应着两个域或两个域是否在同一个ip上。</li></ol>
+
+<p>“URL的首部”指window.location.protocol +window.location.host，也可以理解为“Domains, protocols and ports must match”。</p>
+
+<h3>2. document.domain+iframe的设置</h3>
+
+<p>对于主域相同而子域不同的例子，可以通过设置document.domain的办法来解决。</p>
+
+<p>具体的做法是可以在<code>http://www.a.com/a.html</code>和<code>http://script.a.com/b.html</code>两个文件中分别加上<code>document.domain = ‘a.com’；</code></p>
+
+<p>然后通过a.html文件中创建一个iframe，去控制iframe的contentDocument，这样两个js文件之间就可以“交互”了。当然这种办法只能解决主域相同而二级域名不同的情况，如果你异想天开的把script.a.com的domian设为alibaba.com那显然是会报错地！代码如下：</p>
+
+<p>www.a.com上的a.html</p>
+
+<pre><code>document.domain = &#39;a.com&#39;;
+var ifr = document.createElement(&#39;iframe&#39;);
+ifr.src = &#39;http://script.a.com/b.html&#39;;
+ifr.style.display = &#39;none&#39;;
+document.body.appendChild(ifr);
+ifr.onload = function(){
+    var doc = ifr.contentDocument || ifr.contentWindow.document;
+    // 在这里操纵b.html
+    alert(doc.getElementsByTagName(&quot;h1&quot;)[0].childNodes[0].nodeValue);
+};</code></pre>
+
+<p>script.a.com上的b.html</p>
+
+<pre><code>document.domain = &#39;a.com&#39;;</code></pre>
+
+<p>这种方式适用于{www.kuqin.com, kuqin.com, script.kuqin.com, css.kuqin.com}中的任何页面相互通信。</p>
+
+<p>备注：某一页面的domain默认等于window.location.hostname。主域名是不带www的域名，例如a.com，主域名前面带前缀的通常都为二级域名或多级域名，例如www.a.com其实是二级域名。 domain只能设置为主域名，不可以在b.a.com中将domain设置为c.a.com。</p>
+
+<p>问题：</p>
+
+<ol><li>安全性，当一个站点（b.a.com）被攻击后，另一个站点（c.a.com）会引起安全漏洞。</li><li>如果一个页面中引入多个iframe，要想能够操作所有iframe，必须都得设置相同domain。</li></ol>
+
+<h3>3. 动态创建script</h3>
+
+<p>虽然浏览器默认禁止了跨域访问，但并不禁止在页面中引用其他域的JS文件，并可以自由执行引入的JS文件中的function（包括操作cookie、Dom等等）。根据这一点，可以方便地通过创建script节点的方法来实现完全跨域的通信。具体的做法可以参考YUI的Get Utility</p>
+
+<p>这里判断script节点加载完毕还是蛮有意思的：ie只能通过script的readystatechange属性，其它浏览器是script的load事件。以下是部分判断script加载完毕的方法。</p>
+
+<pre><code>js.onload = js.onreadystatechange = function() {
+    if (!this.readyState || this.readyState === &#39;loaded&#39; || this.readyState === &#39;complete&#39;) {
+    	// readyState返回document的加载状态
+        // callback在此处执行
+        js.onload = js.onreadystatechange = null;
+    }
+};</code></pre>
+
+<h3>4. 利用iframe和location.hash</h3>
+
+<p>这个办法比较绕，但是可以解决完全跨域情况下的脚步置换问题。原理是利用location.hash（返回一个DOMString包含片段标识符“#”紧随其后的URL）来进行传值。</p>
+
+<ol><li>在url： http://a.com#helloword中的‘#helloworld’就是location.hash，改变hash并不会导致页面刷新，所以可以利用hash值来进行数据传递，当然数据容量是有限的。</li><li>假设域名a.com下的文件cs1.html要和cnblogs.com域名下的cs2.html传递信息，cs1.html首先创建自动创建一个隐藏的iframe，iframe的src指向cnblogs.com域名下的cs2.html页面，这时的hash值可以做参数传递用。</li><li>cs2.html响应请求后再将通过修改cs1.html的hash值来传递数据（由于两个页面不在同一个域下IE、Chrome不允许修改parent.location.hash的值，所以要借助于a.com域名下的一个代理iframe；Firefox可以修改）。同时在cs1.html上加一个定时器，隔一段时间来判断location.hash的值有没有变化，一点有变化则获取获取hash值。代码如下：</li></ol>
+
+<p>先是a.com下的文件cs1.html文件：</p>
+
+<pre><code>function startRequest(){
+    var ifr = document.createElement(&#39;iframe&#39;);
+    ifr.style.display = &#39;none&#39;;
+    ifr.src = &#39;http://www.cnblogs.com/lab/cscript/cs2.html#paramdo&#39;;
+    document.body.appendChild(ifr);
+}
+
+function checkHash() {
+    try {
+        var data = location.hash ? location.hash.substring(1) : &#39;&#39;;
+        if (console.log) {
+            console.log(&#39;Now the data is &#39;+data);
+        }
+    } catch(e) {};
+}
+setInterval(checkHash, 2000);</code></pre>
+
+<p>cnblogs.com域名下的cs2.html:</p>
+
+<pre><code>//模拟一个简单的参数处理操作
+switch(location.hash){
+    case &#39;#paramdo&#39;:
+        callBack();
+        break;
+    case &#39;#paramset&#39;:
+        //do something……
+        break;
+}
+
+function callBack(){
+    try {
+        parent.location.hash = &#39;somedata&#39;;
+    } catch (e) {
+        // ie、chrome的安全机制无法修改parent.location.hash，
+        // 所以要利用一个中间的cnblogs域下的代理iframe
+        var ifrproxy = document.createElement(&#39;iframe&#39;);
+        ifrproxy.style.display = &#39;none&#39;;
+        ifrproxy.src = &#39;http://a.com/test/cscript/cs3.html#somedata&#39;;    // 注意该文件在&quot;a.com&quot;域下
+        document.body.appendChild(ifrproxy);
+    }
+}</code></pre>
+
+<p>a.com下的域名cs3.html</p>
+
+<pre><code>//因为parent.parent和自身属于同一个域，所以可以改变其location.hash的值
+parent.parent.location.hash = self.location.hash.substring(1);</code></pre>
+
+<p>当然这样做也存在很多缺点，诸如数据直接暴露在了url中，数据容量和类型都有限等……</p>
+
+<h3>5. window.name实现的跨域数据传输</h3>
+
+<p>有三个页面：</p>
+
+<ul><li>a.com/app.html：应用页面。</li><li>a.com/proxy.html：代理文件，一般是一个没有任何内容的html文件，需要和应用页面在同一域下。</li><li><p>b.com/data.html：应用页面需要获取数据的页面，可称为数据页面。
+实现起来基本步骤如下：</p></li><li><p>在应用页面（a.com/app.html）中创建一个iframe，把其src指向数据页面（b.com/data.html）。
+数据页面会把数据附加到这个iframe的window.name上，data.html代码如下：</p><pre><code>window.name = &#39;I was there!&#39;;
+// 这里是要传输的数据，大小一般为2M，IE和firefox下可以大至32M左右
+// 数据格式可以自定义，如json、字符串</code></pre></li><li><p>在应用页面（a.com/app.html）中监听iframe的onload事件，在此事件中设置这个iframe的src指向本地域的代理文件（代理文件和应用页面在同一域下，所以可以相互通信）。app.html部分代码如下：</p><pre><code>var state = 0,
+  iframe = document.createElement(&#39;iframe&#39;),
+  loadfn = function() {
+      if (state === 1) {
+          var data = iframe.contentWindow.name;    // 读取数据
+          alert(data);    //弹出&#39;I was there!&#39;
+      } else if (state === 0) {
+          state = 1;
+          iframe.contentWindow.location = &quot;http://a.com/proxy.html&quot;;    // 设置的代理文件
+      }  
+  };
+  iframe.src = &#39;http://b.com/data.html&#39;;
+  if (iframe.attachEvent) {
+      iframe.attachEvent(&#39;onload&#39;, loadfn);
+  } else {
+      iframe.onload  = loadfn;
+  }
+  document.body.appendChild(iframe);</code></pre></li><li><p>获取数据以后销毁这个iframe，释放内存；这也保证了安全（不被其他域frame js访问）。</p><pre><code>iframe.contentWindow.document.write(&#39;&#39;);
+  iframe.contentWindow.close();
+  document.body.removeChild(iframe);</code></pre></li></ul>
+
+<p>总结起来即：iframe的src属性由外域转向本地域，跨域数据即由iframe的window.name从外域传递到本地域。这个就巧妙地绕过了浏览器的跨域访问限制，但同时它又是安全操作。</p>
+
+<h3>6. 使用HTML5 postMessage</h3>
+
+<p>HTML5中最酷的新功能之一就是 跨文档消息传输Cross Document Messaging。下一代浏览器都将支持这个功能：Chrome 2.0+、Internet Explorer 8.0+, Firefox 3.0+, Opera 9.6+, 和 Safari 4.0+ 。 Facebook已经使用了这个功能，用postMessage支持基于web的实时消息传递。</p>
+
+<p><strong>otherWindow.postMessage(message, targetOrigin);</strong></p>
+
+<ul><li>otherWindow: 对接收信息页面的window的引用。可以是页面中iframe的contentWindow属性；</li><li>window.open的返回值；通过name或下标从window.frames取到的值。</li><li>message: 所要发送的数据，string类型。</li><li>targetOrigin: 用于限制otherWindow，<code>*</code>表示不作限制</li></ul>
+
+<p>a.com/index.html中的代码：</p>
+
+<pre><code>&lt;iframe id=&quot;ifr&quot; src=&quot;b.com/index.html&quot;&gt;&lt;/iframe&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+window.onload = function() {
+    var ifr = document.getElementById(&#39;ifr&#39;);
+    var targetOrigin = &#39;http://b.com&#39;;  // 若写成&#39;http://b.com/c/proxy.html&#39;效果一样
+                                        // 若写成&#39;http://c.com&#39;就不会执行postMessage了
+    ifr.contentWindow.postMessage(&#39;I was there!&#39;, targetOrigin);
+};
+&lt;/script&gt;</code></pre>
+
+<p>b.com/index.html中的代码：</p>
+
+<pre><code>window.addEventListener(&#39;message&#39;, function(event){
+        // 通过origin属性判断消息来源地址
+        if (event.origin == &#39;http://a.com&#39;) {
+            alert(event.data);    // 弹出&quot;I was there!&quot;
+            alert(event.source);  // 对a.com、index.html中window对象的引用
+                                  // 但由于同源策略，这里event.source不可以访问window对象
+        }
+    }, false);</code></pre></article></div><div class="index"><div id="post__share"><a id="icon-qq" href="http://user.qzone.qq.com/1476837906" target="_blank" class="fontello"><i class="fa fa-qq"></i></a><a id="icon-github" href="https://github.com/JJjie" target="_blank" class="fontello"><i class="fa fa-github"></i></a><a id="icon-weibo" href="http://www.weibo.com/3836806618/profile?topnav=1&amp;wvr=6" target="_blank" class="fontello"><i class="fa fa-weibo"></i></a></div><p id="copyright" style="border-top: 2px solid rgba(229, 232, 236, 0);">Author<a href="index.html" target="_blank">Hankin Jie</a></p></div></div></div><button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button><script src="../js/jquery.1.11.1.js"></script><script src="../js/jquery.pjax.js"></script><script src="../js/nprogress.js"></script><script src="../js/script.js"></script><script tupe="text/javascript">function getPar(par){
+    //获取当前URL
+    var local_url = document.location.href;
+    //获取要取得的get参数位置
+    var get = local_url.indexOf(par +"=");
+    if(get == -1){
+        return false;
+    }
+    //截取字符串
+    var get_par = local_url.slice(par.length + get + 1);
+    //判断截取后的字符串是否还有其他get参数
+    var nextPar = get_par.indexOf("&");
+    if(nextPar != -1){
+        get_par = get_par.slice(0, nextPar);
+    }
+        return get_par;
+}
+if(getPar('show')=='full')
+{
+    document.getElementById('pjax').setAttribute('class','fullscreen');
+    sidebar=document.getElementById('sidebar');
+    sidebar.style.display='none';
+    sidebar.setAttribute('class','fullscreen');
+}</script></body></html>

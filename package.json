@@ -1,0 +1,16 @@
+{
+  "name": "blogback",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "debug": "~2.2.0",
+    "jade": "~1.11.0",
+    "markdown": "^0.5.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
+  }
+}

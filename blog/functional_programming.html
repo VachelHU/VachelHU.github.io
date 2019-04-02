@@ -1,0 +1,245 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"><title>functional_programming</title><link rel="stylesheet" type="text/css" href="../css/blogstyle.css"><link rel="stylesheet" type="text/css" href="../css/fonts.css"><link rel="stylesheet" type="text/css" href="../css/fontello/css/fontello.css"><link rel="stylesheet" type="text/css" href="../fonts/font-awesome/css/font-awesome.css"><link rel="shortcut icon" href="http://liu946.github.io/image/favicon.png"></head><body><aside id="sidebar"><nav id="tags"><a id="avatar" href="index.html"></a><ul id="tags__ul"><li id="js-label1" onclick="window.location=&quot;/blog/blog.html&quot;" class="tags__li tags-btn active">全部文章</li><li id="js-label2" class="tags__li tags-btn">思想</li><li id="js-label3" class="tags__li tags-btn">技术</li><li id="js-label4" class="tags__li tags-btn">技巧</li><li id="js-label5" class="tags__li tags-btn">随笔</li><li id="js-label6" class="tags__li tags-btn">竞赛</li></ul><div id="tags__bottom"><a href="mailto:hwj950504@icloud.com" class="tags-btn fontello"><i class="fa fa-envelope"></i></a><a href="rss.xml" class="tags-btn fontello"><i class="fa fa-rss"></i></a></div></nav><div id="posts-list"><form id="search-form" action="./"><a id="mobile-avatar" href="index.html"></a><input id="search-input" type="text" placeholder="Search..." disabled></form><nav id="pl__container"><a href="/blog/beibaowenti.html" class="think pl__all"><span class="pl__circle"></span><span class="pl__title">背包问题</span><span class="pl__date">2016.1.15</span></a><a href="/blog/functional_programming.html" class="think pl__all"><span class="pl__circle"></span><span class="pl__title">函数式编程</span><span class="pl__date">2015.4.5</span></a><a href="/blog/async&amp;sync.html" class="think pl__all"><span class="pl__circle"></span><span class="pl__title">异步与同步</span><span class="pl__date">2015.3.7</span></a><a href="/blog/jquery_selfevent.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">jQuery自定义事件</span><span class="pl__date">2016.1.16</span></a><a href="/blog/concurrent_skill.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">处理并发的一些技巧和思想</span><span class="pl__date">2015.11.27</span></a><a href="/blog/canvas_read.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">使用Canvas进行验证码识别</span><span class="pl__date">2015.10.18</span></a><a href="/blog/php_request.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">php发送请求方法简明总结</span><span class="pl__date">2015.10.18</span></a><a href="/blog/tomcat_session_leak.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">Apache Tomcat样例目录session操纵漏洞</span><span class="pl__date">2015.10.9</span></a><a href="/blog/js_activexobject.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JavaScript中的ActiveXObject对象</span><span class="pl__date">2015.10.8</span></a><a href="/blog/X_Frame_Options.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">X-Frame-Options 响应头</span><span class="pl__date">2015.10.8</span></a><a href="/blog/jquery_deferredandpromise.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">jQuery Deferred和Promise创建响应式应用程序详细介绍</span><span class="pl__date">2015.10.8</span></a><a href="/blog/sqlmap_use.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">sqlmap用户手册</span><span class="pl__date">2015.10.1</span></a><a href="/blog/js_TopParentIframe.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">js中的top、parent、frame</span><span class="pl__date">2015.10.1</span></a><a href="/blog/node_get_IPaddress.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">node获取客户端IP地址</span><span class="pl__date">2015.10.1</span></a><a href="/blog/css3_matrix.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">理解CSS3 transform中的Matrix</span><span class="pl__date">2015.9.28</span></a><a href="/blog/viewpoint.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">viewpoint和他的朋友们</span><span class="pl__date">2015.6.10</span></a><a href="/blog/submit_File.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">文件提交方式总结</span><span class="pl__date">2015.6.7</span></a><a href="/blog/mysql_of_commands.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">Mysql 命令大全</span><span class="pl__date">2015.5.15</span></a><a href="/blog/mousewheel.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">js中鼠标滚轮事件详解</span><span class="pl__date">2015.5.12</span></a><a href="/blog/mobie_adaption.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">移动端适应与小技巧</span><span class="pl__date">2015.5.10</span></a><a href="/blog/js_preventmodification.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JS阻止对象的修改</span><span class="pl__date">2015.5.6</span></a><a href="/blog/js_Delegation.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">Javascript事件代理和委托（Delegation）</span><span class="pl__date">2015.5.4</span></a><a href="/blog/jquery_dynamic_load_js.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">使用jQuery动态加载js脚本文件的方法</span><span class="pl__date">2015.5.1</span></a><a href="/blog/javascript_special_skill.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">你可能不知道的javascript奇淫技巧</span><span class="pl__date">2015.4.26</span></a><a href="/blog/javascript_of_new,this,call,apply.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">Javascript技术难点之new,this,call,apply</span><span class="pl__date">2015.4.21</span></a><a href="/blog/javascript_of_map_reduce_filter.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JavaScript实现Map、Reduce和Filter</span><span class="pl__date">2015.4.20</span></a><a href="/blog/javascript_cross-domain.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JavaScript跨域总结与解决办法</span><span class="pl__date">2015.4.16</span></a><a href="/blog/ie6_compatiable_10skills.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">解决IE6兼容性问题的十大技巧</span><span class="pl__date">2015.4.15</span></a><a href="/blog/H5_animation_60fps.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">H5动画60fps之路</span><span class="pl__date">2015.4.10</span></a><a href="/blog/es6_new_properties.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">ES6新特性概览</span><span class="pl__date">2015.4.5</span></a><a href="/blog/dom_event_flow.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JS DOM操作入门</span><span class="pl__date">2015.4.3</span></a><a href="/blog/css_remove_float.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS清除浮动</span><span class="pl__date">2015.3.31</span></a><a href="/blog/css_character.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">网页中嵌入字体的解决方案</span><span class="pl__date">2015.3.26</span></a><a href="/blog/css_center_horizontally.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS水平垂直居中</span><span class="pl__date">2015.3.25</span></a><a href="/blog/css3_pointer-events.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS3之pointer-events属性值详解</span><span class="pl__date">2015.3.21</span></a><a href="/blog/css3_grid.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS3 Grid布局：网格布局让内容优先</span><span class="pl__date">2015.3.18</span></a><a href="/blog/css3_box-display.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS3盒模型display:box详解</span><span class="pl__date">2015.3.15</span></a><a href="/blog/browser_caching.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">浏览器缓存</span><span class="pl__date">2015.3.9</span></a><a href="/blog/browser_compatiable.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">浏览器兼容</span><span class="pl__date">2015.3.9</span></a><a href="/blog/wget.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">wget 递归下载整个网站</span><span class="pl__date">2015.12.13</span></a><a href="/blog/netstat_introduce.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">netstat命令详解</span><span class="pl__date">2015.10.18</span></a><a href="/blog/nc_introduce.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">nc命令详解</span><span class="pl__date">2015.10.18</span></a><a href="/blog/kali_breakwifiwpa.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">利用kali破解wifi密码全过程</span><span class="pl__date">2015.10.8</span></a><a href="/blog/quickly_options.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">快捷操作大全</span><span class="pl__date">2015.6.5</span></a><a href="/blog/python_http,ftp.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">使用python创建简单的HTTP和FTP服务</span><span class="pl__date">2015.5.20</span></a><a href="/blog/os_yosemitemac_mac_change.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">OS X 10.10 Yosemite 修改网卡 Mac 地址的方法</span><span class="pl__date">2015.5.17</span></a><a href="/blog/git_command.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">git命令</span><span class="pl__date">2015.4.7</span></a><a href="/blog/hitcon2015_web100.html" class="exam pl__all"><span class="pl__circle"></span><span class="pl__title">Hitcon2015CTF web100</span><span class="pl__date">2015.10.20</span></a><a href="/blog/hitcon2015_web300.html" class="exam pl__all"><span class="pl__circle"></span><span class="pl__title">Hitcon2015CTF web300</span><span class="pl__date">2015.10.20</span></a><a href="/blog/xdctf2015_web2.html" class="exam pl__all"><span class="pl__circle"></span><span class="pl__title">XDctf2015 web2</span><span class="pl__date">2015.10.8</span></a></nav></div></aside><div id="post"><div id="pjax"><div id="post__content" style="font-size: 100%;"><article><h1>函数式编程</h1>
+
+<h3>1. 概论</h3>
+
+<p>在过去的近十年的时间里，面向对象编程大行其道。以至于在大学的教育里，老师也只会教给我们两种编程模型，面向过程和面向对象。</p>
+
+<p>孰不知，在面向对象产生之前，在面向对象思想产生之前，函数式编程已经有了数十年的历史。</p>
+
+<p>那么，接下来，就让我们回顾这个古老又现代的编程模型，让我们看看究竟是什么魔力将这个概念，将这个古老的概念，在21世纪的今天再次拉入了我们的视野。</p>
+
+<h3>2. 什么是函数式编程</h3>
+
+<p>在维基百科中，已经对函数式编程有了很详细的介绍。</p>
+
+<p>那我们就来摘取一下Wiki上对Functional Programming的定义：</p>
+
+<pre><code>In computer science, functional programming is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids state and mutable data.</code></pre>
+
+<p>简单地翻译一下，也就是说函数式编程是一种编程模型，他将<strong>计算机运算看做是数学中函数的计算，并且避免了状态以及变量的概念</strong>。</p>
+
+<p>接下来，我们就来剖析下函数式编程的一些特征。</p>
+
+<h3>3. 从并发说开来</h3>
+
+<p>我们知道Erlang是一个支持高并发，有着强大容错性的函数式编程语言。</p>
+
+<p>在我眼里，Erlang对高并发的支持体现在两方面，第一，<strong>Erlang对轻量级进程的支持</strong>（请注意此处进程并不等于操作系统的进程，而只是Erlang内部的一个单位单元），第二，<strong>就是变量的不变性</strong>。</p>
+
+<h3>3. 变量的不变性</h3>
+
+<p>让我们先来看两段程序，首先是我们常见的一种包含赋值的程序：</p>
+
+<pre><code>class Account:
+    def __init__(self,balance):
+        self.balance = balance
+    def desposit(self,amount):
+        self.balance = self.balance + amount
+        return self.balance
+    def despositTwice(self):
+        self.balance = self.balance * 2
+        return self.balance
+
+if __name__ == &#39;__main__&#39;:
+    account = Account(100)
+    print(account.desposit(10))
+    print(account.despositTwice())</code></pre>
+
+<p>这段程序本身是没有问题的，但是我们考虑这样一种情况，现在有多个进程在同时跑这一个程序，那么程序就会被先desposit 还是先 despositTwice所影响。</p>
+
+<p>但是如果我们采用这样的方式：</p>
+
+<pre><code>	def makeAccount(balance):
+	    global desposit
+	    global despositTwice
+	    def desposit(amount):
+	        result = balance + amount
+	        return result
+	    def despositTwice():
+	        result = balance * 2
+	        return result
+	    def dispatch(method):
+	        return eval(method)
+	    return dispatch
+
+	if __name__ == &#39;__main__&#39;:
+	    handler = makeAccount(100)
+	    print(handler(&#39;desposit&#39;)(10))
+	    print(handler(&#39;despositTwice&#39;)())</code></pre>
+
+<p>这时我们就会发现，无论多少个进程在跑，因为我们本身没有赋值操作，所以都不会影响到我们的最终结果。</p>
+
+<p>但是这样也像大家看到的一样，采用这样的方式没有办法保持状态。</p>
+
+<p>这也就是我们在之前概念中看到的无状态性。</p>
+
+<h3>4. 函数式编程的第一型</h3>
+
+<p>我们知道，对象是面向对象的第一型，那么函数式编程也是一样，<strong>函数</strong>是函数式编程的第一型。</p>
+
+<p>在面向对象编程中，我们把对象传来传去，那在函数式编程中，我们要做的是把<strong>函数传来传去，而这个，说成术语，我们把他叫做高阶函数</strong>。</p>
+
+<p>那我们就来看一个高阶函数的应用，熟悉js的同学应该对下面的代码很熟悉，让哦我们来写一个在电子电路中常用的滤波器的示例代码。</p>
+
+<pre><code>	def Filt(arr,func):
+	    result = []
+	    for item in arr:
+	        result.append(func(item))
+	    return result
+
+	def MyFilter(ele):
+	    if ele &lt; 0 :
+	        return 0
+	    return ele
+
+	if __name__ == &#39;__main__&#39;:
+	    arr = [-5,3,5,11,-45,32]
+	    print(&#39;%s&#39; % (Filt(arr,MyFilter)))</code></pre>
+
+<p>哦，之前忘记了说，什么叫做高阶函数，我们给出定义：</p>
+
+<ol><li>在数学和计算机科学中，高阶函数是至少满足下列一个条件的函数:</li><li>接受一个或多个函数作为输入，输出一个函数</li></ol>
+
+<p>那么，毫无疑问上面的滤波器，就是高阶函数的一种应用。</p>
+
+<p>在函数式编程中，函数是基本单位，是第一型，他几乎被用作一切，包括最简单的计算，甚至连变量都被计算所取代。在函数式编程中，变量只是一个名称，而不是一个存储单元，这是函数式编程与传统的命令式编程最典型的不同之处。</p>
+
+<p>让我们看看，变量只是一个名称，在上面的代码中，我们可以这样重写主函数：</p>
+
+<pre><code>	if __name__ == &#39;__main__&#39;:
+	    arr = [-5,3,5,11,-45,32]
+	    func = MyFilter
+	    print(&#39;%s&#39; % (Filt(arr,func)))</code></pre>
+
+<p>当然，我们还可以把程序更精简一些，利用函数式编程中的利器，map,filter和reduce :</p>
+
+<pre><code>	if __name__ == &#39;__main__&#39;:
+	    arr = [-5,3,5,11,-45,32]
+	    print(&#39;%s&#39; % (map(lambda x : 0 if x&lt;0 else x ,arr)))</code></pre>
+
+<p>这样看上去是不是更赏心悦目呢？</p>
+
+<p>这样我们就看到了，函数是我们编程的基本单位。</p>
+
+<h3>5. 函数式编程和递归</h3>
+
+<p>递归是函数式编程的一个重要的概念，循环可以没有，但是递归对于函数式编程却是不可或缺的。</p>
+
+<p>在这里，我得承认，我确实不知道我该怎么解释递归为什么对函数式编程那么重要。我能想到的只是递归充分地发挥了函数的威力，也解决了函数式编程无状态的问题。（如果大家有其他的意见，请赐教）</p>
+
+<p>递归其实就是将大问题无限地分解，直到问题足够小。</p>
+
+<p>而递归与循环在编程模型和思维模型上最大的区别则在于：</p>
+
+<blockquote><ol><li>循环是在描述我们该如何地去解决问题。</li><li>递归是在描述这个问题的定义。</li></ol></blockquote>
+
+<p>那么就让我们以斐波那契数列为例来看下这两种编程模型。</p>
+
+<p>先说我们最常见的递归模型，这里，我不采用动态规划来做临时状态的缓存，只是说这种思路：</p>
+
+<pre><code>	def Fib(a):
+	    if a==0 or a==1:
+	        return 1
+	    else:
+	        return Fib(a-2)+Fib(a-1)</code></pre>
+
+<p>递归是在描述什么是斐波那契数列，这个数列的定义就是一个数等于他的前两项的和，并且已知Fib(0)和Fib(1)等于1。而程序则是用计算机语言来把这个定义重新描述了一次。</p>
+
+<p>那接下来，我们看下循环模型：</p>
+
+<pre><code>	def Fib(n):
+	    a=1
+	    b=1
+	    n = n - 1
+	    while n&gt;0:
+	        temp=a
+	        a=a+b
+	        b=temp
+	        n = n-1
+	    return b</code></pre>
+
+<p>这里则是在描述我们该如何求解斐波那契数列，应该先怎么样再怎么样。</p>
+
+<p>而我们明显可以看到，递归相比于循环，具有着更加良好的可读性。</p>
+
+<h3>6. 尾递归，伪递归</h3>
+
+<p>我们之前说到了递归和循环各自的问题，那怎么来解决这个问题，函数式编程为我们抛出了答案，尾递归。</p>
+
+<p>什么是尾递归，用最通俗的话说：<strong>就是在最后一部单纯地去调用递归函数</strong>，这里我们要注意“单纯”这个字眼。</p>
+
+<p>那么我们说下尾递归的原理，其实尾递归就是<strong>不要保持当前递归函数的状态，而把需要保持的东西全部用参数给传到下一个函数里，这样就可以自动清空本次调用的栈空间</strong>。这样的话，占用的栈空间就是常数阶的了。</p>
+
+<p>在看尾递归代码之前，我们还是先来明确一下递归的分类，我们将递归分成“树形递归”和“尾递归”，什么是树形递归，就是把计算过程逐一展开，最后形成的是一棵树状的结构，比如之前的斐波那契数列的递归解法。</p>
+
+<p>那么我们来看下斐波那契尾递归的写法：</p>
+
+<pre><code>	def Fib(a,b,n):
+	    if n==0:
+	        return b
+	    else:
+	        return Fib(b,a+b,n-1)</code></pre>
+
+<p>这里看上去有些难以理解，我们来解释一下：传入的a和b分别是前两个数，那么每次我都推进一位，那么b就变成了第一个数，而a+b就变成的第二个数。</p>
+
+<p>这就是尾递归。其实我们想一想，这不是在描述问题，而是在寻找一种问题的解决方案，和上面的循环有什么区别呢？我们来做一个从尾递归到循环的转换把！</p>
+
+<p>最后返回b是把，那我就先声明了，b=0</p>
+
+<p>要传入a是把，我也声明了，a=1</p>
+
+<p>要计算到n==0是把，还是循环while n!=0</p>
+
+<p>每一次都要做一个那样的计算是吧，我用临时变量交换一下。temp=b ; b=a+b;a=temp。</p>
+
+<p>那么按照这个思路一步步转换下去，是不是就是我们在上面写的那段循环代码呢？</p>
+
+<p>那么这个尾递归，其实本质上就是个“伪递归”，您说呢？</p>
+
+<p>既然我们可以优化，对于大多数的函数式编程语言的编译器来说，他们对尾递归同样提供了优化，使尾递归可以优化成循环迭代的形式，使其不会造成堆栈溢出的情况。</p>
+
+<h3>7. 惰性求值与并行</h3>
+
+<p>我们看这样一段简单的代码：</p>
+
+<pre><code>	def getResult():
+	    a = getA()   //Take a long time
+	    b = getB()   //Take a long time
+	    c = a + b</code></pre>
+
+<p>这段代码本身很简单，在命令式程序设计中，编译器（或解释器）会做的就是逐一解释代码，按顺序求出a和b的值，然后再求出c。</p>
+
+<p>可是我们从并行的角度考虑，求a的值是不是可以和求b的值并行呢？也就是说，直到执行到a+b的时候我们编译器才意识到a和b直到现在才需要，那么我们双核处理器就自然去发挥去最大的功效去计算了呢！</p>
+
+<p>这才是惰性求值的最大威力。</p>
+
+<p>当然，惰性求值有着这样的优点也必然有着缺点，我记得我看过一个例子是最经典的：</p>
+
+<pre><code>	def Test():
+	    print(&#39;Please enter a number:&#39;)
+	    a = raw_input()</code></pre>
+
+<p>可是这段代码如果惰性求值的话，第一句话就不见得会在第二句话之前执行了。</p></article></div><div class="index"><div id="post__share"><a id="icon-qq" href="http://user.qzone.qq.com/1476837906" target="_blank" class="fontello"><i class="fa fa-qq"></i></a><a id="icon-github" href="https://github.com/JJjie" target="_blank" class="fontello"><i class="fa fa-github"></i></a><a id="icon-weibo" href="http://www.weibo.com/3836806618/profile?topnav=1&amp;wvr=6" target="_blank" class="fontello"><i class="fa fa-weibo"></i></a></div><p id="copyright" style="border-top: 2px solid rgba(229, 232, 236, 0);">Author<a href="index.html" target="_blank">Hankin Jie</a></p></div></div></div><button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button><script src="../js/jquery.1.11.1.js"></script><script src="../js/jquery.pjax.js"></script><script src="../js/nprogress.js"></script><script src="../js/script.js"></script><script tupe="text/javascript">function getPar(par){
+    //获取当前URL
+    var local_url = document.location.href;
+    //获取要取得的get参数位置
+    var get = local_url.indexOf(par +"=");
+    if(get == -1){
+        return false;
+    }
+    //截取字符串
+    var get_par = local_url.slice(par.length + get + 1);
+    //判断截取后的字符串是否还有其他get参数
+    var nextPar = get_par.indexOf("&");
+    if(nextPar != -1){
+        get_par = get_par.slice(0, nextPar);
+    }
+        return get_par;
+}
+if(getPar('show')=='full')
+{
+    document.getElementById('pjax').setAttribute('class','fullscreen');
+    sidebar=document.getElementById('sidebar');
+    sidebar.style.display='none';
+    sidebar.setAttribute('class','fullscreen');
+}</script></body></html>

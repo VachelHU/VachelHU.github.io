@@ -1,0 +1,134 @@
+doctype html
+html
+    head
+        meta(http-equiv="content-type",content="text/html; charset=utf-8")
+        meta(name="viewport",content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+
+        title
+            | 博文 - Hankin Jie
+
+        link(rel="stylesheet",type="text/css",href="../css/blogstyle.css")
+        link(rel="stylesheet",type="text/css",href="../css/fonts.css")
+        link(rel="stylesheet",type="text/css",href="../css/fontello/css/fontello.css")
+        link(rel="stylesheet",type="text/css",href="../fonts/font-awesome/css/font-awesome.css")
+
+        link(rel="shortcut icon",href="http://liu946.github.io/image/favicon.png")
+
+    body
+        aside#sidebar
+            nav#tags
+                a#avatar(href="index.html")
+                ul#tags__ul
+                    li#js-label1.tags__li.tags-btn.active(onclick='window.location="/blog/blog.html"')
+                        | 全部文章
+                    li#js-label2.tags__li.tags-btn
+                        | 思想
+                    li#js-label3.tags__li.tags-btn
+                        | 技术
+                    li#js-label4.tags__li.tags-btn
+                        | 技巧
+                    li#js-label5.tags__li.tags-btn
+                        | 随笔
+                    li#js-label6.tags__li.tags-btn
+                        | 竞赛
+
+                #tags__bottom
+                    a.tags-btn.fontello(href="mailto:hwj950504@icloud.com")
+                        i.fa.fa-envelope
+                    a.tags-btn.fontello(href="rss.xml")
+                        i.fa.fa-rss
+
+            #posts-list
+                form#search-form(action="./")
+                    a#mobile-avatar(href="index.html")
+                    input#search-input(type="text",placeholder="Search...",disabled)
+                nav#pl__container
+                    each val,index in catagolue
+                        each c in val
+                            if index === '2'
+                                a.think.pl__all(href="#{c.url}")
+                                    span.pl__circle
+                                    span.pl__title= c.title
+                                    span.pl__date= c.time
+                            else if index === '3'
+                                a.tech.pl__all(href="#{c.url}")
+                                    span.pl__circle
+                                    span.pl__title= c.title
+                                    span.pl__date= c.time
+                            else if index === '4'
+                                a.skill.pl__all(href="#{c.url}")
+                                    span.pl__circle
+                                    span.pl__title= c.title
+                                    span.pl__date= c.time
+                            else if index === '5'
+                                a.book.pl__all(href="#{c.url}")
+                                    span.pl__circle
+                                    span.pl__title= c.title
+                                    span.pl__date= c.time
+                            else if index === '6'
+                                a.exam.pl__all(href="#{c.url}")
+                                    span.pl__circle
+                                    span.pl__title= c.title
+                                    span.pl__date= c.time
+        #post
+            #pjax
+                #post__content
+                    h1#post__title
+                        | 博文
+                    hr
+                    each val,index in timeline
+                        h3
+                            legend= index
+                        ul
+                            each t in val
+                                li
+                                    span= t.time
+                                    a.pjaxlink(href="#{t.url}")= t.title
+                        hr
+
+                .index
+                    #post__share
+                        a#icon-qq.fontello(href="http://user.qzone.qq.com/1476837906",target="_blank")
+                            i.fa.fa-qq
+                        a#icon-github.fontello(href="https://github.com/JJjie",target="_blank")
+                            i.fa.fa-github
+                        a#icon-weibo.fontello(href="http://www.weibo.com/3836806618/profile?topnav=1&wvr=6",target="_blank")
+                            i.fa.fa-weibo
+
+                    p#copyright(style='border-top: 2px solid rgba(229, 232, 236, 0);')
+                        | Author
+                        a(href="index.html",target="_blank")
+                            | Hankin Jie
+
+        button#js-fullscreen
+            span#icon-arrow.fontello
+
+        script(src="../js/jquery.1.11.1.js")
+        script(src="../js/jquery.pjax.js")
+        script(src="../js/nprogress.js")
+        script(src="../js/script.js")
+        script(tupe='text/javascript').
+            function getPar(par){
+                //获取当前URL
+                var local_url = document.location.href;
+                //获取要取得的get参数位置
+                var get = local_url.indexOf(par +"=");
+                if(get == -1){
+                    return false;
+                }
+                //截取字符串
+                var get_par = local_url.slice(par.length + get + 1);
+                //判断截取后的字符串是否还有其他get参数
+                var nextPar = get_par.indexOf("&");
+                if(nextPar != -1){
+                    get_par = get_par.slice(0, nextPar);
+                }
+                    return get_par;
+            }
+            if(getPar('show')=='full')
+            {
+                document.getElementById('pjax').setAttribute('class','fullscreen');
+                sidebar=document.getElementById('sidebar');
+                sidebar.style.display='none';
+                sidebar.setAttribute('class','fullscreen');
+            }

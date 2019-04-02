@@ -1,0 +1,257 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"><title>js_activexobject</title><link rel="stylesheet" type="text/css" href="../css/blogstyle.css"><link rel="stylesheet" type="text/css" href="../css/fonts.css"><link rel="stylesheet" type="text/css" href="../css/fontello/css/fontello.css"><link rel="stylesheet" type="text/css" href="../fonts/font-awesome/css/font-awesome.css"><link rel="shortcut icon" href="http://liu946.github.io/image/favicon.png"></head><body><aside id="sidebar"><nav id="tags"><a id="avatar" href="index.html"></a><ul id="tags__ul"><li id="js-label1" onclick="window.location=&quot;/blog/blog.html&quot;" class="tags__li tags-btn active">全部文章</li><li id="js-label2" class="tags__li tags-btn">思想</li><li id="js-label3" class="tags__li tags-btn">技术</li><li id="js-label4" class="tags__li tags-btn">技巧</li><li id="js-label5" class="tags__li tags-btn">随笔</li><li id="js-label6" class="tags__li tags-btn">竞赛</li></ul><div id="tags__bottom"><a href="mailto:hwj950504@icloud.com" class="tags-btn fontello"><i class="fa fa-envelope"></i></a><a href="rss.xml" class="tags-btn fontello"><i class="fa fa-rss"></i></a></div></nav><div id="posts-list"><form id="search-form" action="./"><a id="mobile-avatar" href="index.html"></a><input id="search-input" type="text" placeholder="Search..." disabled></form><nav id="pl__container"><a href="/blog/beibaowenti.html" class="think pl__all"><span class="pl__circle"></span><span class="pl__title">背包问题</span><span class="pl__date">2016.1.15</span></a><a href="/blog/functional_programming.html" class="think pl__all"><span class="pl__circle"></span><span class="pl__title">函数式编程</span><span class="pl__date">2015.4.5</span></a><a href="/blog/async&amp;sync.html" class="think pl__all"><span class="pl__circle"></span><span class="pl__title">异步与同步</span><span class="pl__date">2015.3.7</span></a><a href="/blog/jquery_selfevent.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">jQuery自定义事件</span><span class="pl__date">2016.1.16</span></a><a href="/blog/concurrent_skill.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">处理并发的一些技巧和思想</span><span class="pl__date">2015.11.27</span></a><a href="/blog/canvas_read.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">使用Canvas进行验证码识别</span><span class="pl__date">2015.10.18</span></a><a href="/blog/php_request.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">php发送请求方法简明总结</span><span class="pl__date">2015.10.18</span></a><a href="/blog/tomcat_session_leak.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">Apache Tomcat样例目录session操纵漏洞</span><span class="pl__date">2015.10.9</span></a><a href="/blog/js_activexobject.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JavaScript中的ActiveXObject对象</span><span class="pl__date">2015.10.8</span></a><a href="/blog/X_Frame_Options.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">X-Frame-Options 响应头</span><span class="pl__date">2015.10.8</span></a><a href="/blog/jquery_deferredandpromise.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">jQuery Deferred和Promise创建响应式应用程序详细介绍</span><span class="pl__date">2015.10.8</span></a><a href="/blog/sqlmap_use.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">sqlmap用户手册</span><span class="pl__date">2015.10.1</span></a><a href="/blog/js_TopParentIframe.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">js中的top、parent、frame</span><span class="pl__date">2015.10.1</span></a><a href="/blog/node_get_IPaddress.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">node获取客户端IP地址</span><span class="pl__date">2015.10.1</span></a><a href="/blog/css3_matrix.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">理解CSS3 transform中的Matrix</span><span class="pl__date">2015.9.28</span></a><a href="/blog/viewpoint.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">viewpoint和他的朋友们</span><span class="pl__date">2015.6.10</span></a><a href="/blog/submit_File.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">文件提交方式总结</span><span class="pl__date">2015.6.7</span></a><a href="/blog/mysql_of_commands.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">Mysql 命令大全</span><span class="pl__date">2015.5.15</span></a><a href="/blog/mousewheel.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">js中鼠标滚轮事件详解</span><span class="pl__date">2015.5.12</span></a><a href="/blog/mobie_adaption.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">移动端适应与小技巧</span><span class="pl__date">2015.5.10</span></a><a href="/blog/js_preventmodification.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JS阻止对象的修改</span><span class="pl__date">2015.5.6</span></a><a href="/blog/js_Delegation.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">Javascript事件代理和委托（Delegation）</span><span class="pl__date">2015.5.4</span></a><a href="/blog/jquery_dynamic_load_js.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">使用jQuery动态加载js脚本文件的方法</span><span class="pl__date">2015.5.1</span></a><a href="/blog/javascript_special_skill.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">你可能不知道的javascript奇淫技巧</span><span class="pl__date">2015.4.26</span></a><a href="/blog/javascript_of_new,this,call,apply.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">Javascript技术难点之new,this,call,apply</span><span class="pl__date">2015.4.21</span></a><a href="/blog/javascript_of_map_reduce_filter.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JavaScript实现Map、Reduce和Filter</span><span class="pl__date">2015.4.20</span></a><a href="/blog/javascript_cross-domain.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JavaScript跨域总结与解决办法</span><span class="pl__date">2015.4.16</span></a><a href="/blog/ie6_compatiable_10skills.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">解决IE6兼容性问题的十大技巧</span><span class="pl__date">2015.4.15</span></a><a href="/blog/H5_animation_60fps.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">H5动画60fps之路</span><span class="pl__date">2015.4.10</span></a><a href="/blog/es6_new_properties.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">ES6新特性概览</span><span class="pl__date">2015.4.5</span></a><a href="/blog/dom_event_flow.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">JS DOM操作入门</span><span class="pl__date">2015.4.3</span></a><a href="/blog/css_remove_float.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS清除浮动</span><span class="pl__date">2015.3.31</span></a><a href="/blog/css_character.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">网页中嵌入字体的解决方案</span><span class="pl__date">2015.3.26</span></a><a href="/blog/css_center_horizontally.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS水平垂直居中</span><span class="pl__date">2015.3.25</span></a><a href="/blog/css3_pointer-events.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS3之pointer-events属性值详解</span><span class="pl__date">2015.3.21</span></a><a href="/blog/css3_grid.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS3 Grid布局：网格布局让内容优先</span><span class="pl__date">2015.3.18</span></a><a href="/blog/css3_box-display.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">CSS3盒模型display:box详解</span><span class="pl__date">2015.3.15</span></a><a href="/blog/browser_caching.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">浏览器缓存</span><span class="pl__date">2015.3.9</span></a><a href="/blog/browser_compatiable.html" class="tech pl__all"><span class="pl__circle"></span><span class="pl__title">浏览器兼容</span><span class="pl__date">2015.3.9</span></a><a href="/blog/wget.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">wget 递归下载整个网站</span><span class="pl__date">2015.12.13</span></a><a href="/blog/netstat_introduce.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">netstat命令详解</span><span class="pl__date">2015.10.18</span></a><a href="/blog/nc_introduce.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">nc命令详解</span><span class="pl__date">2015.10.18</span></a><a href="/blog/kali_breakwifiwpa.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">利用kali破解wifi密码全过程</span><span class="pl__date">2015.10.8</span></a><a href="/blog/quickly_options.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">快捷操作大全</span><span class="pl__date">2015.6.5</span></a><a href="/blog/python_http,ftp.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">使用python创建简单的HTTP和FTP服务</span><span class="pl__date">2015.5.20</span></a><a href="/blog/os_yosemitemac_mac_change.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">OS X 10.10 Yosemite 修改网卡 Mac 地址的方法</span><span class="pl__date">2015.5.17</span></a><a href="/blog/git_command.html" class="skill pl__all"><span class="pl__circle"></span><span class="pl__title">git命令</span><span class="pl__date">2015.4.7</span></a><a href="/blog/hitcon2015_web100.html" class="exam pl__all"><span class="pl__circle"></span><span class="pl__title">Hitcon2015CTF web100</span><span class="pl__date">2015.10.20</span></a><a href="/blog/hitcon2015_web300.html" class="exam pl__all"><span class="pl__circle"></span><span class="pl__title">Hitcon2015CTF web300</span><span class="pl__date">2015.10.20</span></a><a href="/blog/xdctf2015_web2.html" class="exam pl__all"><span class="pl__circle"></span><span class="pl__title">XDctf2015 web2</span><span class="pl__date">2015.10.8</span></a></nav></div></aside><div id="post"><div id="pjax"><div id="post__content" style="font-size: 100%;"><article><h1>JavaScript中的ActiveXObject对象</h1>
+
+<h3>概述</h3>
+
+<p>JavaScript中ActiveXObject对象是启用并返回 Automation 对象的引用。使用方法：</p>
+
+<pre><code>newObj = new ActiveXObject( servername.typename[, location])</code></pre>
+
+<p>ActiveXObject 对象语法有这些部分：</p>
+
+<ul><li>其中newObj是必选项。要赋值为 ActiveXObject 的变量名。</li><li>servername是必选项。提供该对象的应用程序的名称。</li><li>typename是必选项。要创建的对象的类型或类。</li><li>location是可选项。创建该对象的网络服务器的名称。</li></ul>
+
+<p><strong>切记：ActiveX是微软的东西，故而这玩意儿只有IE才支持！</strong></p>
+
+<p>javaScript中利用ActiveXObject来创建FileSystemObject操作文件</p>
+
+<h3>1. 功能实现核心：FileSystemObject 对象</h3>
+
+<p>要在javascript中实现文件操作功能，主要就是依靠FileSystemobject对象。</p>
+
+<h3>2. FileSystemObject编程</h3>
+
+<p>使用FileSystemObject 对象进行编程很简单，一般要经过如下的步骤：</p>
+
+<p>创建FileSystemObject对象、应用相关方法、访问对象相关属性 。</p>
+
+<h4>1. 创建FileSystemObject对象</h4>
+
+<p>创建FileSystemObject对象的代码只要1行：</p>
+
+<pre><code>var fso = new ActiveXObject(“Scripting.FileSystemObject”);</code></pre>
+
+<p>上述代码执行后，fso就成为一个FileSystemObject对象实例。</p>
+
+<h4>2. 应用相关方法</h4>
+
+<p>创建对象实例后，就可以使用对象的相关方法了。比如，使用CreateTextFile方法创建一个文本文件：</p>
+
+<pre><code>var fso = new ActiveXObject(“Scripting.FileSystemObject”);
+var f1 = fso.createtextfile(“c:\\myjstest.txt”,true”);</code></pre>
+
+<h4>3. 访问对象相关属性</h4>
+
+<p>要访问对象的相关属性，首先要建立指向对象的句柄，这就要通过get系列方法实现：GetDrive负责获取驱动器信息，GetFolder负责获取文件夹信息，GetFile负责获取文件信息。比如，指向下面的代码后，f1就成为指向文件c:\test.txt的句柄：</p>
+
+<pre><code>var fso = new ActiveXObject(“Scripting.FileSystemObject”);
+var f1 = fso.GetFile(“c:\\myjstest.txt”);</code></pre>
+
+<p>然后，使用f1访问对象的相关属性。比如：</p>
+
+<pre><code>var fso = new ActiveXObject(“Scripting.FileSystemObject”);
+var f1 = fso.GetFile(“c:\\myjstest.txt”);
+alert(“File last modified: ” + f1.DateLastModified);</code></pre>
+
+<p>执行上面最后一句后，将显示<code>c:\myjstest.txt</code>的最后修改日期属性值。</p>
+
+<p>但有一点请注意：对于使用create方法建立的对象，就不必再使用get方法获取对象句柄了，这时直接使用create方法建立的句柄名称就可以：</p>
+
+<pre><code>var fso = new ActiveXObject(“Scripting.FileSystemObject”);
+var f1 = fso.createtextfile(“c:\\myjstest.txt”,true”);
+alert(“File last modified: ” + f1.DateLastModified);</code></pre>
+
+<h3>3. 操作驱动器（Drives）</h3>
+
+<p>使用FileSystemObject对象来编程操作驱动器（Drives）和文件夹（Folders）很容易，这就象在Windows文件浏览器中对文件进行交互操作一样，比如：拷贝、移动文件夹，获取文件夹的属性。</p>
+
+<h4>1. Drives对象属性</h4>
+
+<p>Drive对象负责收集系统中的物理或逻辑驱动器资源内容，它具有如下属性：</p>
+
+<ul><li>TotalSize：以字节（byte）为单位计算的驱动器大小。</li><li>AvailableSpace或FreeSpace：以字节（byte）为单位计算的驱动器可用空间。</li><li>DriveLetter：驱动器字母。</li><li>DriveType：驱动器类型，取值为：removable（移动介质）、fixed（固定介质）、network（网络资源）、CD-ROM或者RAM盘。</li><li>SerialNumber：驱动器的系列码。</li><li>FileSystem：所在驱动器的文件系统类型，取值为FAT、FAT32和NTFS。</li><li>IsReady：驱动器是否可用。</li><li>ShareName：共享名称。</li><li>VolumeName：卷标名称。</li><li>Path和RootFolder：驱动器的路径或者根目录名称。</li></ul>
+
+<h4>2. Drive对象操作例程</h4>
+
+<p>下面的例程显示驱动器C的卷标、总容量和可用空间等信息：</p>
+
+<pre><code>var fso, drv, s =”&quot;;
+fso = new ActiveXObject(“Scripting.FileSystemObject”);
+drv = fso.GetDrive(fso.GetDriveName(“c:\\”));
+s += “Drive C:” + ” – “;
+s += drv.VolumeName + “\n”;
+s += “Total Space: ” + drv.TotalSize / 1024;
+s += ” Kb” + “\n”;
+s += “Free Space: ” + drv.FreeSpace / 1024;
+s += ” Kb” + “\n”;
+alert(s);</code></pre>
+
+<h3>3. 操作文件夹（Folders）</h3>
+
+<p>涉及到文件夹的操作包括创建、移动、删除以及获取相关属性。</p>
+
+<p>Folder对象操作例程 :</p>
+
+<p>下面的例程将练习获取父文件夹名称、创建文件夹、删除文件夹、判断是否为根目录等操作：</p>
+
+<pre><code>var fso, fldr, s = “”;
+// 创建FileSystemObject对象实例
+fso = new ActiveXObject(“Scripting.FileSystemObject”);
+// 获取Drive 对象
+fldr = fso.GetFolder(“c:\\”);
+// 显示父目录名称
+alert(“Parent folder name is: ” + fldr + “\n”);
+// 显示所在drive名称
+alert(“Contained on drive ” + fldr.Drive + “\n”);
+// 判断是否为根目录
+if (fldr.IsRootFolder)
+alert(“This is the root folder.”);
+else
+alert(“This folder isn’t a root folder.”);
+alert(“\n\n”);
+// 创建新文件夹
+fso.CreateFolder (“C:\\Bogus”);
+alert(“Created folder C:\\Bogus” + “\n”);
+// 显示文件夹基础名称，不包含路径名
+alert(“Basename = ” + fso.GetBaseName(“c:\\bogus”) + “\n”);
+// 删除创建的文件夹
+fso.DeleteFolder (“C:\\Bogus”);
+alert(“Deleted folder C:\\Bogus” + “\n”);</code></pre>
+
+<h3>4. 操作文件（Files）</h3>
+
+<p>对文件进行的操作要比以上介绍的驱动器（Drive）和文件夹（Folder）操作复杂些，基本上分为以下两个类别：对文件的创建、拷贝、移动、删除操作和对文件内容的创建、添加、删除和读取操作。下面分别详细介绍。</p>
+
+<h4>1. 创建文件</h4>
+
+<p>一共有3种方法可用于创建一个空文本文件，这种文件有时候也叫做文本流（text stream）。</p>
+
+<p>第一种是使用CreateTextFile方法。代码如下：</p>
+
+<pre><code>var fso, f1;
+fso = new ActiveXObject(“Scripting.FileSystemObject”);
+f1 = fso.CreateTextFile(“c:\\testfile.txt”, true);</code></pre>
+
+<p>第二种是使用OpenTextFile方法，并添加上ForWriting属性，ForWriting的值为2。代码如下：</p>
+
+<pre><code>var fso, ts;
+var ForWriting= 2;
+fso = new ActiveXObject(“Scripting.FileSystemObject”);
+ts = fso.OpenTextFile(“c:\\test.txt”, ForWriting, true);</code></pre>
+
+<p>第三种是使用OpenAsTextStream方法，同样要设置好ForWriting属性。代码如下：</p>
+
+<pre><code>var fso, f1, ts;
+var ForWriting = 2;
+fso = new ActiveXObject(“Scripting.FileSystemObject”);
+fso.CreateTextFile (“c:\\test1.txt”);
+f1 = fso.GetFile(“c:\\test1.txt”);
+ts = f1.OpenAsTextStream(ForWriting, true);</code></pre>
+
+<h4>2. 添加数据到文件</h4>
+
+<p>当文件被创建后，一般要按照“打开文件－&gt;填写数据－&gt;关闭文件”的步骤实现添加数据到文件的目的。</p>
+
+<p>打开文件可使用FileSystemObject对象的OpenTextFile方法，或者使用File对象的OpenAsTextStream方法。</p>
+
+<p>填写数据要使用到TextStream对象的Write、WriteLine或者WriteBlankLines方法。在同是实现写入数据的功能下，这3者的区别在于：Write方法不在写入数据末尾添加新换行符，WriteLine方法要在最后添加一个新换行符，而WriteBlankLines则增加一个或者多个空行。</p>
+
+<p>关闭文件可使用TextStream对象的Close方法。</p>
+
+<h4>3. 创建文件及添加数据例程</h4>
+
+<p>下面的代码将创建文件、添加数据、关闭文件几个步骤结合起来进行应用：</p>
+
+<pre><code>var fso, tf;
+fso = new ActiveXObject(“Scripting.FileSystemObject”);
+// 创建新文件
+tf = fso.CreateTextFile(“c:\\testfile.txt”, true);
+// 填写数据，并增加换行符
+tf.WriteLine(“Testing 1, 2, 3.”) ;
+// 增加3个空行
+tf.WriteBlankLines(3) ;
+// 填写一行，不带换行符
+tf.Write (“This is a test.”);
+// 关闭文件
+tf.Close();</code></pre>
+
+<h4>4. 读取文件内容</h4>
+
+<p>从文本文件中读取数据要使用TextStream对象的Read、ReadLine或ReadAll方法。</p>
+
+<p>Read方法用于读取文件中指定数量的字符；ReadLine方法读取一整行，但不包括换行符；ReadAll方法则读取文本文件的整个内容。读取的内容存放于字符串变量中，用于显示、分析。在使用Read或ReadLine方法读取文件内容时，如果要跳过一些部分，就要用到Skip或SkipLine方法。</p>
+
+<p>下面的代码演示打开文件、填写数据，然后读取数据：</p>
+
+<pre><code>var fso, f1, ts, s;
+var ForReading = 1;
+fso = new ActiveXObject(“Scripting.FileSystemObject”);
+// 创建文件
+f1 = fso.CreateTextFile(“c:\\testfile.txt”, true);
+// 填写一行数据
+f1.WriteLine(“Hello World”);
+f1.WriteBlankLines(1);
+// 关闭文件
+f1.Close();
+// 打开文件
+ts = fso.OpenTextFile(“c:\\testfile.txt”, ForReading);
+// 读取文件一行内容到字符串
+s = ts.ReadLine();
+// 显示字符串信息
+alert(“File contents = ‘” + s + “‘”);
+// 关闭文件
+ts.Close();</code></pre>
+
+<h4>5. 移动、拷贝和删除文件</h4>
+
+<p>对于以上三种文件操作，javascript各有两种对应的方法：File.Move 或 FileSystemObject.MoveFile用于移动文件；File.Copy 或 FileSystemObject.CopyFile用于拷贝文件；File.Delete 或 FileSystemObject.DeleteFile用于删除文件。</p>
+
+<p>下面的代码演示在驱动器C的根目录下创建一个文本文件，填写一些内容，然后将文件移动到<code>\tmp</code>目录下，再在目录<code>\temp</code>下面建立一个文件拷贝，最后删除这两个目录的文件：</p>
+
+<pre><code>var fso, f1, f2, s;
+fso = new ActiveXObject(“Scripting.FileSystemObject”);
+f1 = fso.CreateTextFile(“c:\\testfile.txt”, true);
+// 写一行
+f1.Write(“This is a test.”);
+// 关闭文件
+f1.Close();
+// 获取C:\根目录下的文件句柄
+f2 = fso.GetFile(“c:\\testfile.txt”);
+// 移动文件到\tmp目录下
+f2.Move (“c:\\tmp\\testfile.txt”);
+// 拷贝文件到\temp目录下
+f2.Copy (“c:\\temp\\testfile.txt”);
+// 获取文件句柄
+f2 = fso.GetFile(“c:\\tmp\\testfile.txt”);
+f3 = fso.GetFile(“c:\\temp\\testfile.txt”);
+// 删除文件
+f2.Delete();
+f3.Delete();</code></pre>
+
+<h3>结 语</h3>
+
+<p>通过以上对FileSystemObject的各种对象、属性和方法的介绍和示例，相信你已经对如何使用javascript语言在页面中操作驱动器、文件和文件夹有了清晰的认识。但是上述提及的例程都非常简单，要全面、灵活地掌握javascript文件操作技术，还需要大量的实践练习。</p>
+
+<p>而且还有一点提醒大家，由于涉及到在浏览器中进行文件读写这样的高级操作，对于默认的浏览器安全级别而言，在代码运行前都会有一个信息提示，这点请在实际环境中提示访问者注意。</p></article></div><div class="index"><div id="post__share"><a id="icon-qq" href="http://user.qzone.qq.com/1476837906" target="_blank" class="fontello"><i class="fa fa-qq"></i></a><a id="icon-github" href="https://github.com/JJjie" target="_blank" class="fontello"><i class="fa fa-github"></i></a><a id="icon-weibo" href="http://www.weibo.com/3836806618/profile?topnav=1&amp;wvr=6" target="_blank" class="fontello"><i class="fa fa-weibo"></i></a></div><p id="copyright" style="border-top: 2px solid rgba(229, 232, 236, 0);">Author<a href="index.html" target="_blank">Hankin Jie</a></p></div></div></div><button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button><script src="../js/jquery.1.11.1.js"></script><script src="../js/jquery.pjax.js"></script><script src="../js/nprogress.js"></script><script src="../js/script.js"></script><script tupe="text/javascript">function getPar(par){
+    //获取当前URL
+    var local_url = document.location.href;
+    //获取要取得的get参数位置
+    var get = local_url.indexOf(par +"=");
+    if(get == -1){
+        return false;
+    }
+    //截取字符串
+    var get_par = local_url.slice(par.length + get + 1);
+    //判断截取后的字符串是否还有其他get参数
+    var nextPar = get_par.indexOf("&");
+    if(nextPar != -1){
+        get_par = get_par.slice(0, nextPar);
+    }
+        return get_par;
+}
+if(getPar('show')=='full')
+{
+    document.getElementById('pjax').setAttribute('class','fullscreen');
+    sidebar=document.getElementById('sidebar');
+    sidebar.style.display='none';
+    sidebar.setAttribute('class','fullscreen');
+}</script></body></html>
