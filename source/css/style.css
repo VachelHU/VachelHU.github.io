@@ -489,8 +489,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	background: #fff;
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 20px;
-	font-size: 14px;
+	margin-top: 15px;
+	font-size: 12px;
 	text-transform: uppercase;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
@@ -765,8 +765,8 @@ header .intro-text {
 	left: 50%;
 }
 .timeline>li {
-	margin-bottom: 100px;
-	min-height: 100px;
+	margin-bottom: 20px;
+	min-height: 70px;
 }
 .timeline>li .timeline-panel {
 	float: left;
@@ -803,14 +803,14 @@ header .intro-text {
 	padding: 0 20px 20px;
 }
 .timeline>li .timeline-image {
-	width: 150px;
-	height: 150px;
-	margin-left: -75px;
+	width: 100px;
+	height: 100px;
+	margin-left: -50px;
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 25px;
-	font-size: 18px;
-	line-height: 26px;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 20px;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
 	padding: 0 20px 20px;
@@ -819,18 +819,18 @@ header .intro-text {
 
 @media(min-width:1200px) {
 .timeline>li {
-	min-height: 170px;
+	min-height: 70px;
 }
 .timeline>li .timeline-panel {
-	padding: 10px 20px 20px 100px;
+	padding: 10px 20px 20px 10px;
 }
 .timeline>li .timeline-image {
-	width: 150px;
-	height: 150px;
-	margin-left: -75px;
+	width: 100px;
+	height: 100px;
+	margin-left: -50px;
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 35px;
+	margin-top: 20px;
 	font-weight: bold;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
