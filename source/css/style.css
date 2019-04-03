@@ -34,7 +34,7 @@ p.intro {
 	font-family: 'Open Sans', sans-serif;
 }
 a {
-	color: #fff;
+	color: #130fff;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -419,7 +419,7 @@ ol.type li a:hover {
 	font-size: .8em;
 }
 /* Resume Section */
-#resume {
+#research {
 	padding: 80px 0;
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* FF3.6+ */
@@ -535,8 +535,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	background-attachment: fixed;
 }
 .achievement-box {
-	text-align: center;
+	text-align: left;
 	margin: 20px 0;
+	color: black;
 }
 .achievement-box i.fa {
 	font-size: 60px;
@@ -807,7 +808,7 @@ header .intro-text {
 	margin-left: -75px;
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 30px;
+	margin-top: 25px;
 	font-size: 18px;
 	line-height: 26px;
 }
@@ -829,8 +830,8 @@ header .intro-text {
 	margin-left: -75px;
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 40px;
-	font-weight: 400;
+	margin-top: 35px;
+	font-weight: bold;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
 	padding: 10px 100px 20px 20px;
