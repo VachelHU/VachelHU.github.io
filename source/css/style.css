@@ -5,6 +5,7 @@ body, html {
 	color: #616e7c;
 	width: 100% !important;
 	height: 100% !important;
+	touch-action: none;
 }
 h1 {
 	font-weight: 700;
@@ -171,6 +172,22 @@ ul, ol {
 }
 .intro .intro-body .intro-text {
 	font-size: 18px;
+}
+.intro .intro-body .intro-text .social {
+	margin-top: 40px;
+}
+.intro .intro-body .intro-text .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+.intro .intro-body .intro-text .social i.fa {
+	font-size: 30px;
+	padding: 4px 5px;
+	color: #f4f5f6;
+	transition: all 0.5s;
+}
+.intro .intro-body .intro-text .social i.fa:hover {
+	color: #E87E04;
 }
 .section-title.center {
 	padding: 30px 0;
@@ -534,9 +551,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	background-size: cover;
 	background-attachment: fixed;
 }
+@media(min-width:990px) {
+.achievement-box {
+	width: 80%;
+}
+}
 .achievement-box {
 	text-align: left;
-	margin: 20px 0;
+	margin: 20px auto;
 	color: black;
 }
 .achievement-box i.fa {
@@ -548,7 +570,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .achievement-box h4 {
 	font-size: 14px;
 	font-weight: 700;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	text-shadow: 1px 1px #fff;
 }
 .achievement-box span.count {
@@ -755,8 +777,8 @@ section {
 	padding: 120px 0;
 }
 header .intro-text {
-	padding-top: 300px;
-	padding-bottom: 200px;
+	padding-top: 120px;
+	padding-bottom: 120px;
 }
 #portfolio .portfolio-item {
 	margin: 0 0 30px;

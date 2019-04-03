@@ -35,6 +35,18 @@
           <p>My research focuses on Time Series Modeling and Graph Embedding.</p>
           <a href="#about" class="btn btn-default btn-lg page-scroll">About Me</a>
           <a href="#research" class="btn btn-default btn-lg page-scroll">My Research</a>
+          <div class="social">
+            <ul>
+              <li><a href="https://github.com/JJjie" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a href="http://stackoverflow.com/users/4768895/jjjie" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+              <li><a href="http://user.qzone.qq.com/1476837906" target="_blank"><i class="fa fa-qq"></i></a></li>
+              <li><a href="http://www.weibo.com/3836806618" target="_blank"><i class="fa fa-weibo"></i></a></li>
+              <li><a href="http://www.linkedin.com/in/aston2une" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100008601852116" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/JJWjie" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="mailto:aston2une@zju.edu.cn" target="_blank"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -46,7 +58,7 @@
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-        <a class="navbar-brand page-scroll" href="#page-top">Wenjie Hu</a> </div>
+        <a class="navbar-brand page-scroll" href="#page-top">Wenjie Hu (胡文杰)</a> </div>
       
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -116,29 +128,35 @@
 <!-- Research Section -->
 <div id="research" class="text-center">
   <div class="container">
-    <div class="section-title center">
+    <div style="padding-bottom: 0" class="section-title center">
       <h2>Recent Research</h2>
       <hr>
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <ul class="timeline">
-          <li>
-            <div class="timeline-image">
-              <h4>2015.7 <br>
-                - <br>
-                2015.9 </h4>
+        <ul class="achievement-box">
+          <li class="achievement-intro">
+            <div class="page-header" style="margin-top: 0">
+              <h4>Representation Learning for Social Networks</h4>
             </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>阿里巴巴YunOS事业群</h4>
-                <h4 class="subheading">前端开发工程师</h4>
-              </div>
-              <div class="timeline-body">
-                <p>参与YunOS官网4.0版本项目</p>
-                <p>完成YunOS‘左一屏’生活服务号项目</p>
-              </div>
-            </div>
+            <img width="310" src="http://yangy.org/works/dynamictriad/embedding.jpg" align="left" style="margin-left:20px;margin-right:20px">
+            <p>
+              Graph embedding, also known as network representation learning, aims to learn the low-dimensional representations of vertexes in a network, while structure and inherent properties of the graph is preserved.
+            </p>
+            <p>
+              Our research mainly focuses on learning representations for social networks.
+              Social networks are scale-free: vertex degrees of a social network follow a heavy-tailed distribution.
+              Is it possible to reconstruct a scale-free network according to the learned vertex embedding?
+              We first theoretically analyze the difficulty of embedding and reconstructing a scale-free network in the Euclidean
+              space, by converting our problem to the sphere packing problem.
+              Then, we propose the "degree penalty" principle for designing scale-free property preserving network embedding
+              algorithm: punishing the proximity between high-degree vertexes.
+              We introduce two implementations of our principle by utilizing the spectral techniques and a skip-gram model respectively
+              (<a href="http://yangy.org/works/scalefree/scale_free_network_embedding.pdf">Feng et al., AAAI'18</a>).
+            </p>
+            <p>
+              <b><a href="#">Read more</a></b>
+            </p>
           </li>
         </ul>
       </div>
@@ -151,7 +169,7 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <div class="achievement-box">
+        <ul class="achievement-box">
           <li style="margin:10px">*Rui Feng, *Yang Yang, <b>Wenjie Hu</b>, Fei Wu, and Yueting Zhuang.
             <b>Representation Learning for Scale-free Networks</b>.
             In <i> Proceedings of the 32nd AAAI Conference on Artificial Intelligence </i>
@@ -180,7 +198,7 @@
             [<a href="">PDF</a>]
             [<a href="">Code</a>]
           </li>
-        </div>
+        </ul>
       </div>
     </div>
   </div>
@@ -252,19 +270,19 @@
 <div id="portfolio">
   <div class="container">
     <div class="section-title text-center center">
-      <h2>My Portfolio</h2>
+      <h2>Check Out Some of My Works.</h2>
       <hr>
       <div class="clearfix"></div>
-      <p>下面列举所做过的项目、项目简介。部分提供链接地址，没挂载在公网服务器上的提供github项目地址</p>
+      <p>The following is a list of my projects, some of which offer github addresses</p>
     </div>
     <div class="categories">
       <ul class="cat">
         <li>
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Web前端开发</a></li>
-            <li><a href="#" data-filter=".app">整站开发</a></li>
-            <li><a href="#" data-filter=".branding">安全</a></li>
+            <li><a href="#" data-filter=".web">Data Mining</a></li>
+            <li><a href="#" data-filter=".app">Artificial Intelligence</a></li>
+            <li><a href="#" data-filter=".branding">Website</a></li>
           </ol>
         </li>
       </ul>
