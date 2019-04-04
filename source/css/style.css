@@ -232,6 +232,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
+	font-size: 16px;
 }
 /* Services Section */
 #services {
@@ -560,6 +561,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	margin: 0px auto 50px auto;
 	color: black;
 }
+.achievement-box li{
+	font-size: 16px;
+}
 .achievement-box i.fa {
 	font-size: 60px;
 	font-weight: 400;
@@ -567,7 +571,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	margin-bottom: 20px;
 }
 .achievement-box h4 {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 700;
 	/*text-transform: uppercase;*/
 	text-shadow: 1px 1px #fff;
