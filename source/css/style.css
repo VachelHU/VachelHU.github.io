@@ -329,6 +329,11 @@ ol.type li a:hover {
 	-moz-transition-property: -moz-transform, opacity;
 	transition-property: transform, opacity;
 }
+.portfolio-items {
+    width: 80%;
+    position: relative;
+    margin: 0px auto;
+}
 .portfolio-item {
 	margin-bottom: 30px;
 	-webkit-transition: all 0.5s ease-out;
@@ -346,7 +351,7 @@ ol.type li a:hover {
 	transform: scale(1.2);
 }
 .portfolio-item .hover-bg {
-	height: 260px;
+	/*height: 260px;*/
 	overflow: hidden;
 	position: relative;
 }
@@ -363,12 +368,14 @@ ol.type li a:hover {
 	transition: all 0.5s;
 }
 .hover-bg .hover-text>h4 {
+    font-size: 14px;
 	opacity: 0;
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
 	transition: all 0.3s;
 }
 .hover-bg:hover .hover-text>h4 {
+    font-size: 14px;
 	opacity: 1;
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateY(0);
@@ -441,7 +448,7 @@ ol.type li a:hover {
 }
 /* Resume Section */
 #research {
-	padding: 80px 0;
+	padding: 30px 0;
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(50%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
@@ -552,6 +559,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	margin-bottom: 0;
 }
 /* Achivements Section */
+#achievements {
+    padding: 30px 0;
+    background: url(../img/achivements-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
 @media(min-width:990px) {
 .achievement-box {
 	width: 80%;
@@ -784,12 +797,6 @@ section {
 header .intro-text {
 	padding-top: 120px;
 	padding-bottom: 120px;
-}
-#portfolio {
-    padding: 80px 0;
-    background: url(../img/achivements-bg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
 }
 #portfolio p{
     font-size: 16px;
