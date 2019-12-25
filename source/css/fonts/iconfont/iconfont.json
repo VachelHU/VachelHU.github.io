@@ -1,0 +1,114 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "339514",
+      "name": "QQ",
+      "font_class": "icon",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "356876",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "431779",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e709",
+      "unicode_decimal": 59145
+    },
+    {
+      "icon_id": "721659",
+      "name": "代码",
+      "font_class": "ai-code",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "1279452",
+      "name": "数据",
+      "font_class": "shuju",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "1410504",
+      "name": "school",
+      "font_class": "school",
+      "unicode": "e6c3",
+      "unicode_decimal": 59075
+    },
+    {
+      "icon_id": "1467368",
+      "name": "linked",
+      "font_class": "linked",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "3876409",
+      "name": "twitter",
+      "font_class": "twitter",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "4936957",
+      "name": "zhihu",
+      "font_class": "zhihu",
+      "unicode": "e87c",
+      "unicode_decimal": 59516
+    },
+    {
+      "icon_id": "5634903",
+      "name": "weibo",
+      "font_class": "weibo",
+      "unicode": "f261",
+      "unicode_decimal": 62049
+    },
+    {
+      "icon_id": "7712204",
+      "name": "教师",
+      "font_class": "jiaoshi",
+      "unicode": "e722",
+      "unicode_decimal": 59170
+    },
+    {
+      "icon_id": "7736014",
+      "name": "envelope",
+      "font_class": "envelope",
+      "unicode": "e8e3",
+      "unicode_decimal": 59619
+    },
+    {
+      "icon_id": "7736018",
+      "name": "download",
+      "font_class": "download",
+      "unicode": "e8e4",
+      "unicode_decimal": 59620
+    },
+    {
+      "icon_id": "9358680",
+      "name": "friends",
+      "font_class": "friends",
+      "unicode": "e554",
+      "unicode_decimal": 58708
+    },
+    {
+      "icon_id": "12268077",
+      "name": "算法包管理",
+      "font_class": "suanfabaoguanli",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}

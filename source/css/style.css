@@ -15,7 +15,6 @@ h1 strong {
 }
 h2 {
 	text-transform: uppercase;
-	line-height: 20px;
 	margin: 0;
 	color: #2c3e50;
 }
@@ -151,7 +150,7 @@ ul, ol {
 	background-color: rgb(48,29,74);
 	border-color: #2c3e50;
 }
-.btn-primary i.fa {
+.btn-primary i.iconfont {
 	margin-right: 10px;
 }
 /* Home Section */
@@ -184,14 +183,18 @@ ul, ol {
 	display: inline-block;
 	margin: 0 20px;
 }
-.intro .intro-body .intro-text .social i.fa {
+.intro .intro-body .intro-text .social i.iconfont {
 	font-size: 30px;
 	padding: 4px 5px;
 	color: #f4f5f6;
 	transition: all 0.5s;
 }
-.intro .intro-body .intro-text .social i.fa:hover {
+.intro .intro-body .intro-text .social i.iconfont:hover {
 	color: #E87E04;
+}
+#friends h4{
+	margin-top: 0;
+	margin-bottom: 30px;
 }
 .section-title.center {
 	padding: 30px 0;
@@ -252,7 +255,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .space {
 	margin-top: 40px;
 }
-#services i.fa {
+#services i.iconfont {
 	font-size: 50px;
 	color: #2c3e50;
 	margin-bottom: 20px;
@@ -396,7 +399,7 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-#portfolio i.fa {
+#portfolio i.iconfont {
 	font-size: 20px;
 	padding: 5px;
 	color: #E87E04;
@@ -578,7 +581,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .achievement-box li{
 	font-size: 16px;
 }
-.achievement-box i.fa {
+.achievement-box i.iconfont {
 	font-size: 60px;
 	font-weight: 400;
 	color: #E87E04;
@@ -665,7 +668,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #contact form {
 	padding: 30px 0;
 }
-#contact i.fa {
+#contact i.iconfont {
 	margin-bottom: 10px;
 }
 #contact .text-danger {
@@ -720,13 +723,13 @@ color: #2c3e50;
 	display: inline-block;
 	margin: 0 20px;
 }
-#contact .social i.fa {
+#contact .social i.iconfont {
 	font-size: 30px;
 	padding: 4px 5px;
 	color: #f4f5f6;
 	transition: all 0.5s;
 }
-#contact .social i.fa:hover {
+#contact .social i.iconfont:hover {
 	color: #E87E04;
 }
 #contact .btn {
