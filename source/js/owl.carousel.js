@@ -1,4 +1,4 @@
-/*
+/**
  *  jQuery OwlCarousel v1.3.2
  *
  *  Copyright (c) 2013 Bartosz Wojciechowski
@@ -7,10 +7,6 @@
  *  Licensed under MIT
  *
  */
-
-/*JS Lint helpers: */
-/*global dragMove: false, dragEnd: false, $, jQuery, alert, window, document */
-/*jslint nomen: true, continue:true */
 
 if (typeof Object.create !== "function") {
     Object.create = function (obj) {
