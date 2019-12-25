@@ -808,6 +808,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #contact .social .service h4{
 	font-size: 16px;
 }
+#research .showlist{
+	list-style: disc;
+	padding: auto;
+	margin: auto;
+}
 section {
 	padding: 120px 0;
 }
