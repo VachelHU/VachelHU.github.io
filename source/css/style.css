@@ -5,7 +5,6 @@ body, html {
 	/*color: #616e7c;*/
 	width: 100% !important;
 	height: 100% !important;
-	touch-action: none;
 }
 h1 {
 	font-weight: 700;
