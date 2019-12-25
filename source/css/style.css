@@ -691,13 +691,21 @@ color: #2c3e50;
 }
 #contact .social ul li {
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0 5px;
 }
 #contact .social i.iconfont {
-	font-size: 30px;
-	padding: 4px 5px;
+	font-size: 20px;
+	padding: 2px;
 	color: #f4f5f6;
 	transition: all 0.5s;
+}
+#contact .social .service{
+	width: 45%;
+	display: inline-block;
+	position: relative;
+}
+#contact .social .service h4{
+	font-size: 12px;
 }
 #contact .social i.iconfont:hover {
 	color: #E87E04;
@@ -779,6 +787,24 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 4px 5px;
 	color: #f4f5f6;
 	transition: all 0.5s;
+}
+#contact .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#contact .social i.iconfont {
+	font-size: 30px;
+	padding: 4px 5px;
+	color: #f4f5f6;
+	transition: all 0.5s;
+}
+#contact .social .service{
+	width: 33%;
+	display: block;
+	position: relative;
+}
+#contact .social .service h4{
+	font-size: 16px;
 }
 section {
 	padding: 120px 0;
