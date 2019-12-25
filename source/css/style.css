@@ -8,6 +8,7 @@ body, html {
 }
 h1 {
 	font-weight: 700;
+	font-size: 32px;
 }
 h1 strong {
 	font-weight: 900;
@@ -128,11 +129,11 @@ ul, ol {
 	color: #fff;
 }
 .btn-default {
-	color: #76818d;
+	color: #FFFFFF;
 	background-color: transparent;
 	border-color: #76818d;
-	margin: 0 10px;
-	font-size: 16px;
+	margin: 30px 10px 0 10px;
+	font-size: 14px;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #eee;
@@ -174,17 +175,19 @@ ul, ol {
 }
 .intro .intro-body .intro-text {
 	font-size: 18px;
+	margin: 0 10px;
+	color: #B2C2CF;
 }
 .intro .intro-body .intro-text .social {
 	margin-top: 40px;
 }
 .intro .intro-body .intro-text .social ul li {
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0 5px;
 }
 .intro .intro-body .intro-text .social i.iconfont {
-	font-size: 30px;
-	padding: 4px 5px;
+	font-size: 20px;
+	padding: 2px 2px;
 	color: #f4f5f6;
 	transition: all 0.5s;
 }
@@ -760,6 +763,22 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 40px;
 	color: #76818d;
 	margin-top: 20px;
+}
+.btn-default {
+	color: #76818d;
+	background-color: transparent;
+	border-color: #76818d;
+	margin: 0 10px ;
+	font-size: 16px;
+}
+.intro .intro-body .intro-text .social ul li {
+	margin: 0 20px;
+}
+.intro .intro-body .intro-text .social i.iconfont {
+	font-size: 30px;
+	padding: 4px 5px;
+	color: #f4f5f6;
+	transition: all 0.5s;
 }
 section {
 	padding: 120px 0;
