@@ -433,6 +433,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 #research .showlist{
 	list-style: disc;
+	padding: 0;
+	margin: 0 0 0 10px;
 }
 .timeline {
 	position: relative;
