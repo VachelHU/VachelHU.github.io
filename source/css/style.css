@@ -814,6 +814,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin: auto;
 }
 #research .showlist li {
+	margin: 15px 0 10px 35px;
 	font-size: 15px;
 }
 section {
