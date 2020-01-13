@@ -542,7 +542,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 @media(min-width:990px) {
 .achievement-box {
-	width: 80%;
+	width: 95%;
 }
 }
 .achievement-box {
@@ -812,6 +812,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	list-style: disc;
 	padding: auto;
 	margin: auto;
+}
+#research .showlist li {
+	font-size: 15px;
 }
 section {
 	padding: 120px 0;
