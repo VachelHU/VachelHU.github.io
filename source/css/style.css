@@ -342,6 +342,7 @@ ol.type li a:hover {
 }
 .hover-bg .hover-text>h4 {
     font-size: 14px;
+	line-height: 20px;
 	opacity: 0;
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
@@ -539,6 +540,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     background: url(../img/achivements-bg.jpg);
     background-size: cover;
     background-attachment: fixed;
+}
+.achievement-intro img{
+	margin: 0 0 20px 0;
+}
+@media(min-width: 768px){
+	.achievement-intro img{
+		margin: 0 20px;
+	}
 }
 @media(min-width:990px) {
 .achievement-box {
