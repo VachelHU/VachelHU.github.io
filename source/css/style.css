@@ -567,6 +567,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .achievement-box li{
 	font-size: 16px;
+	margin: 15px 0;
 }
 .achievement-box i.iconfont {
 	font-size: 60px;
