@@ -246,9 +246,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /* Services Section */
 #services {
 	padding: 80px 0;
-	background: url(../img/services-bg.jpg);
-	background-size: cover;
-	background-attachment: fixed;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(50%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
+
 }
 #services H4 {
 	color: #E87E04;
@@ -454,7 +460,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .timeline>li {
 	position: relative;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	min-height: 50px;
 }
 .timeline>li:before, .timeline>li:after {
@@ -487,16 +493,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	z-index: 100;
 	position: absolute;
 	left: 0;
-	width: 70px;
-	height: 70px;
-	margin-left: 0;
+	width: 60px;
+	height: 60px;
+	margin-left: 10px;
 	border: 1px solid #eee;
 	border-radius: 100%;
 	text-align: center;
 	background: #fff;
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 15px;
+	margin-top: 22px;
 	font-size: 12px;
 	text-transform: uppercase;
 }
@@ -583,14 +589,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /* Testimonials Section */
 #testimonials {
 	padding: 80px 0;
-	background: #ffffff; /* Old browsers */
-	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(50%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
+	background: url(../img/services-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 }
 #testimonial {
 	padding: 0;
@@ -849,15 +850,15 @@ header .intro-text {
 }
 .timeline>li .timeline-panel {
 	float: left;
-	width: 41%;
+	width: 45%;
 	padding: 0 20px 20px 30px;
 	text-align: right;
 }
 .timeline>li .timeline-image {
 	left: 50%;
-	width: 100px;
-	height: 100px;
-	margin-left: -50px;
+	width: 60px;
+	height: 60px;
+	margin-left: -30px;
 }
 .timeline>li .timeline-image h4 {
 	margin-top: 16px;
@@ -882,13 +883,13 @@ header .intro-text {
 	padding: 0 20px 20px;
 }
 .timeline>li .timeline-right {
-	margin-left: 60%;
+	margin-left: 55%;
 	text-align: left;
 }
 .timeline>li .timeline-image {
-	width: 100px;
-	height: 100px;
-	margin-left: -50px;
+	width: 60px;
+	height: 60px;
+	margin-left: -30px;
 }
 .timeline>li .timeline-image h4 {
 	margin-top: 20px;
@@ -896,7 +897,7 @@ header .intro-text {
 	line-height: 20px;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
-	padding: 0 20px 20px;
+	padding: 0;
 }
 }
 
@@ -905,16 +906,12 @@ header .intro-text {
 	min-height: 70px;
 }
 .timeline>li .timeline-panel {
-	padding: 10px 20px 20px 10px;
-}
-.timeline>li .timeline-right {
-	margin-left: 60%;
-	text-align: left;
+	padding: 0;
 }
 .timeline>li .timeline-image {
-	width: 100px;
-	height: 100px;
-	margin-left: -50px;
+	width: 60px;
+	height: 60px;
+	margin-left: -30px;
 }
 .timeline>li .timeline-image h4 {
 	margin-top: 20px;
