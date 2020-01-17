@@ -284,6 +284,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	width: 49%;
 	display: inline-block;
 }
+@media (min-width: 768px){
+	#portfolio .col-lg-3 {
+		width: 25%;
+	}
+}
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
