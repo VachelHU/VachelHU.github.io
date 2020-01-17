@@ -280,6 +280,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
 }
+#portfolio .col-lg-3{
+	width: 49%;
+	display: inline-block;
+}
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
@@ -588,9 +592,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	display: block;
 }
 /* Testimonials Section */
-#testimonials {
+#travel {
 	padding: 80px 0;
-	background: url(../img/services-bg.jpg);
+	background: url(../img/testimonials_bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
