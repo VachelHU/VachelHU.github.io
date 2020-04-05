@@ -1,5 +1,5 @@
 body, html {
-	font-family: 'Open Sans', sans-serif;
+	font-family: Optima, sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	/*color: #616e7c;*/
@@ -35,7 +35,7 @@ p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
 	line-height: 24px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Optima sans-serif;
 }
 a {
 	color: #130fff;
@@ -391,26 +391,6 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
-/* Skills Section */
-#skills {
-	padding: 80px 0;
-	background: url(../img/skills-bg.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-}
-#skills p {
-	color: #474d5d;
-}
-#skills .skill {
-	margin-bottom: 40px;
-	text-align: center;
-	padding: 0px;
-}
-#skills .skill h4 {
-	font-weight: 700;
-	color: #E87E04;
-	text-shadow: 1px 1px #fff;
-}
 .chart {
 	position: relative;
 	display: inline-block;
@@ -451,7 +431,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #research .showlist{
 	list-style: disc;
 	padding: 0;
-	margin: 0 0 0 10px;
+	margin: 0 20px 0 20px;
 }
 .timeline {
 	position: relative;
@@ -536,19 +516,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .timeline>li:last-child {
 	margin-bottom: 40px;
 }
-.timeline .timeline-heading h4 {
+.timeline .timeline-heading h3 {
 	margin-top: 0;
 	/*text-transform: uppercase;*/
 }
 .timeline .timeline-heading h2 {
 	margin-top: 30px;
 }
-.timeline .timeline-heading h4.subheading {
+.timeline .timeline-heading h3.subheading {
 	text-transform: none;
 	color: #E87E04;
+	font-weight: bolder;
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
 	margin-bottom: 0;
+	font-weight: bold;
 }
 /* Achivements Section */
 #achievements {
@@ -671,7 +653,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 label {
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Optima sans-serif;
 	float: left;
 }
 #contact .form-control {
@@ -777,7 +759,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	text-align: left;
 }
 .intro .intro-body H1 {
-	font-family: 'Lato', sans-serif;
+	font-family: Optima, sans-serif;
 	font-size: 70px;
 	font-weight: 600;
 	letter-spacing: -2px;
@@ -789,7 +771,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	max-width: 60%;
 }
 .intro .intro-body .intro-text p {
-	font-family: 'Lato', sans-serif;
+	font-family: Optima, sans-serif;
 	font-size: 20px;
 	margin-bottom: 40px;
 	color: #76818d;
@@ -832,7 +814,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #research .showlist{
 	list-style: disc;
 	padding: auto;
-	margin: auto;
+	margin: 0 0 0 40px;
 }
 #research .showlist li {
 	margin: 15px 0 10px 35px;
@@ -884,6 +866,11 @@ header .intro-text {
 }
 
 @media(min-width:992px) {
+#research .showlist{
+	list-style: disc;
+	padding: auto;
+	margin: 0 0 0 120px;
+}
 #here-me h1 {
 	margin: 10px 0 0px;
 }
