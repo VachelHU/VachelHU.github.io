@@ -1,5 +1,5 @@
 body, html {
-	font-family: Optima, sans-serif;
+	font-family: Optima, Helvetica, 'KaiTi', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	/*color: #616e7c;*/
@@ -35,7 +35,7 @@ p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
 	line-height: 24px;
-	font-family: Optima sans-serif;
+	font-family: Optima, Helvetica, 'KaiTi', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
 }
 a {
 	color: #130fff;
@@ -653,7 +653,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 label {
 	font-size: 12px;
 	font-weight: 400;
-	font-family: Optima sans-serif;
+	font-family: Optima, Helvetica, 'KaiTi', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
 	float: left;
 }
 #contact .form-control {
@@ -759,7 +759,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	text-align: left;
 }
 .intro .intro-body H1 {
-	font-family: Optima, sans-serif;
+	font-family: Optima, Helvetica, 'KaiTi', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
 	font-size: 70px;
 	font-weight: 600;
 	letter-spacing: -2px;
@@ -771,7 +771,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	max-width: 60%;
 }
 .intro .intro-body .intro-text p {
-	font-family: Optima, sans-serif;
+	font-family: Optima, Helvetica, 'KaiTi', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
 	font-size: 20px;
 	margin-bottom: 40px;
 	color: #76818d;
