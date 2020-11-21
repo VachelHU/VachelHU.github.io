@@ -6,53 +6,46 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "339514",
-      "name": "QQ",
-      "font_class": "icon",
-      "unicode": "e601",
-      "unicode_decimal": 58881
+      "icon_id": "124857",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e643",
+      "unicode_decimal": 58947
     },
     {
-      "icon_id": "348268",
+      "icon_id": "562659",
+      "name": "friends",
+      "font_class": "friends",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "928982",
       "name": "bars",
       "font_class": "bars",
-      "unicode": "e9ee",
-      "unicode_decimal": 59886
+      "unicode": "e637",
+      "unicode_decimal": 58935
     },
     {
-      "icon_id": "356876",
+      "icon_id": "929266",
+      "name": "envelope",
+      "font_class": "envelope",
+      "unicode": "e6d3",
+      "unicode_decimal": 59091
+    },
+    {
+      "icon_id": "1206327",
       "name": "search",
       "font_class": "search",
-      "unicode": "e60d",
-      "unicode_decimal": 58893
+      "unicode": "e613",
+      "unicode_decimal": 58899
     },
     {
-      "icon_id": "431779",
-      "name": "github",
-      "font_class": "github",
-      "unicode": "e709",
-      "unicode_decimal": 59145
-    },
-    {
-      "icon_id": "721659",
-      "name": "代码",
-      "font_class": "ai-code",
-      "unicode": "e606",
-      "unicode_decimal": 58886
-    },
-    {
-      "icon_id": "1279452",
-      "name": "数据",
-      "font_class": "shuju",
-      "unicode": "e664",
-      "unicode_decimal": 58980
-    },
-    {
-      "icon_id": "1410504",
-      "name": "school",
-      "font_class": "school",
-      "unicode": "e6c3",
-      "unicode_decimal": 59075
+      "icon_id": "1244207",
+      "name": "知乎",
+      "font_class": "zhihu",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
     },
     {
       "icon_id": "1467368",
@@ -62,25 +55,39 @@
       "unicode_decimal": 59031
     },
     {
-      "icon_id": "3876409",
-      "name": "twitter",
-      "font_class": "twitter",
-      "unicode": "e655",
-      "unicode_decimal": 58965
+      "icon_id": "1467443",
+      "name": "wechat",
+      "font_class": "wechat",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
     },
     {
-      "icon_id": "4936957",
-      "name": "zhihu",
-      "font_class": "zhihu",
-      "unicode": "e87c",
-      "unicode_decimal": 59516
+      "icon_id": "3876518",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e677",
+      "unicode_decimal": 58999
     },
     {
-      "icon_id": "5634903",
-      "name": "weibo",
-      "font_class": "weibo",
-      "unicode": "f261",
-      "unicode_decimal": 62049
+      "icon_id": "4767091",
+      "name": "code",
+      "font_class": "code",
+      "unicode": "e7fc",
+      "unicode_decimal": 59388
+    },
+    {
+      "icon_id": "5269211",
+      "name": "数据",
+      "font_class": "shuju",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "6988488",
+      "name": "school",
+      "font_class": "school",
+      "unicode": "ec54",
+      "unicode_decimal": 60500
     },
     {
       "icon_id": "7712204",
@@ -90,25 +97,18 @@
       "unicode_decimal": 59170
     },
     {
-      "icon_id": "7736014",
-      "name": "envelope",
-      "font_class": "envelope",
-      "unicode": "e8e3",
-      "unicode_decimal": 59619
-    },
-    {
-      "icon_id": "7736018",
+      "icon_id": "11398833",
       "name": "download",
       "font_class": "download",
-      "unicode": "e8e4",
-      "unicode_decimal": 59620
+      "unicode": "e545",
+      "unicode_decimal": 58693
     },
     {
-      "icon_id": "9358680",
-      "name": "friends",
-      "font_class": "friends",
-      "unicode": "e554",
-      "unicode_decimal": 58708
+      "icon_id": "11982216",
+      "name": "twitter",
+      "font_class": "twitter",
+      "unicode": "e9b2",
+      "unicode_decimal": 59826
     },
     {
       "icon_id": "12268077",
