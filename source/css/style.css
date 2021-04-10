@@ -199,6 +199,17 @@ ul, ol {
 	margin-top: 0;
 	margin-bottom: 30px;
 }
+#friends .logo {
+	width: 96px;
+	height: 96px;
+	display: inline-block;
+	background-size: cover;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	border: 2px solid #FFFFFF;
+	box-shadow: 0 0 0 3px #46433a;
+	margin-bottom: 5px;
+}
 .section-title.center {
 	padding: 30px 0;
 }
