@@ -280,24 +280,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	color: #2c3e50;
 	margin-bottom: 20px;
 }
-/* Portfolio Section */
-#portfolio {
-	padding: 80px 0;
-	background: #ffffff; /* Old browsers */
-	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
-}
-#portfolio .col-lg-3{
+
+#engineering .col-lg-3{
 	width: 49%;
 	display: inline-block;
 }
 @media (min-width: 768px){
-	#portfolio .col-lg-3 {
+	#engineering .col-lg-3 {
 		width: 25%;
 	}
 }
@@ -397,7 +386,7 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-#portfolio i.iconfont {
+#engineering i.iconfont {
 	font-size: 20px;
 	padding: 5px;
 	color: #E87E04;
@@ -428,7 +417,7 @@ ol.type li a:hover {
 	font-size: .8em;
 }
 /* Resume Section */
-#research {
+#works {
 	padding: 30px 0;
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* FF3.6+ */
@@ -439,7 +428,7 @@ ol.type li a:hover {
 	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
 }
-#research .showlist{
+.showlist{
 	list-style: disc;
 	padding: 0;
 	margin: 0 20px 0 20px;
@@ -544,7 +533,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	font-weight: bold;
 }
 /* Achivements Section */
-#achievements {
+#experience {
     padding: 30px 0;
     background: url(../img/achivements-bg.jpg);
     background-size: cover;
@@ -823,12 +812,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #contact .social .service h4{
 	font-size: 16px;
 }
-#research .showlist{
+.showlist{
 	list-style: disc;
 	padding: auto;
 	margin: 0 0 0 40px;
 }
-#research .showlist li {
+.showlist li {
 	margin: 15px 0 10px 35px;
 	font-size: 15px;
 }
@@ -839,11 +828,11 @@ header .intro-text {
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
-#portfolio p{
+#engineering p{
     font-size: 16px;
     color: black;
 }
-#portfolio .portfolio-item {
+#engineering .portfolio-item {
 	margin: 0 0 30px;
 }
 .timeline:before {
@@ -878,7 +867,7 @@ header .intro-text {
 }
 
 @media(min-width:992px) {
-#research .showlist{
+.showlist{
 	list-style: disc;
 	padding: auto;
 	margin: 0 0 0 120px;
