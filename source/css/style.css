@@ -217,6 +217,10 @@ ul, ol {
 	font-weight: 700;
 	margin-bottom: 30px;
 }
+.section-title p, .section-title.center p {
+	margin: 15px 0 10px 35px;
+    font-size: 15px;
+}
 .section-title.center hr {
 	height: 4px;
 	width: 70px;
@@ -226,6 +230,7 @@ ul, ol {
 	margin: 0 auto 10px auto;
 	border: 0;
 }
+
 /* About Section */
 #about {
 	padding: 80px 0;
@@ -256,7 +261,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	font-size: 16px;
 }
 /* Services Section */
-#services {
+#activities {
 	padding: 80px 0;
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 50%, #ffffff 100%); /* FF3.6+ */
@@ -268,17 +273,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
 
 }
-#services H4 {
+#activities H4 {
 	color: #E87E04;
 	text-shadow: 1px 1px #fff;
 }
 .space {
 	margin-top: 40px;
 }
-#services i.iconfont {
+#activities i.iconfont {
 	font-size: 50px;
 	color: #2c3e50;
 	margin-bottom: 20px;
+}
+#activities p {
+	font-size: 16px;
+    color: black;
 }
 
 #engineering .col-lg-3{
